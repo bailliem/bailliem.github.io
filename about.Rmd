@@ -1,10 +1,11 @@
 ---
-title: "About this site"
-description: |
-  Some additional details about the website
+title: "About this blog"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+
+Welcome to our blog! 
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>test blog</title>
+    <link>https://blogs.rstudio.com/tensorflow/</link>
+    <atom:link href="https://blogs.rstudio.com/tensorflow/index.xml" rel="self" type="application/rss+xml"/>
+    <description>News, insights, and in-depth case studies.
+</description>
+    <image>
+      <title>test blog</title>
+      <url>https://blogs.rstudio.com/tensorflow/images/favicon.png</url>
+      <link>https://blogs.rstudio.com/tensorflow/</link>
+    </image>
+    <generator>Radix</generator>
+    <lastBuildDate>Thu, 17 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>TensorFlow v1.3 Released</title>
+      <dc:creator>J.J. Allaire</dc:creator>
+      <link>https://blogs.rstudio.com/tensorflow/posts/2017-08-17-tensorflow-v13-released</link>
+      <description>The final release of TensorFlow v1.3 is now available. This release marks the initial availability of several canned estimators including DNNClassifier and  DNNRegressor.</description>
+      <guid>https://blogs.rstudio.com/tensorflow/posts/2017-08-17-tensorflow-v13-released</guid>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
+      <media:content url="https://blogs.rstudio.com/tensorflow/posts/2017-08-17-tensorflow-v13-released/tensorflow-logo.png" medium="image" type="image/png" width="3876" height="741"/>
+    </item>
+  </channel>
+</rss>

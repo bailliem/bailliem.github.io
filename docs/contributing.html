@@ -19,27 +19,27 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>test blog: About this blog</title>
+  <title>test blog: Contributing articles</title>
   
   
   <link rel="icon" type="image/png" href="images/favicon.png"/>
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="test blog: About this blog"/>
+  <meta property="og:title" content="test blog: Contributing articles"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="test blog"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="test blog: About this blog"/>
+  <meta property="twitter:title" content="test blog: Contributing articles"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["About this blog"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Contributing articles"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1277,7 +1277,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this blog","authors":[]}
+{"title":"Contributing articles","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1307,13 +1307,44 @@
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About this blog</h1>
+<h1>Contributing articles</h1>
 
 </div>
 
 
 <div class="d-article">
-<p>Welcome to our blog!</p>
+<p>We very much appreciate contributions to the TensorFlow for R blog from the broader R community. If you are interested in publishing some of your own work or insights, we’d love to hear from you!</p>
+<p>Articles posted on the TensorFlow for R blog are authored using <a href="https://rstudio.github.io/radix">Radix for R Markdown</a>. Here are the steps required to contribute a new article:</p>
+<ol type="1">
+<li><p>Create a <a href="http://happygitwithr.com/rstudio-git-github.html">GitHub repository</a> to host your article (we’ll use the repository for feedback and review of the post before it’s published).</p></li>
+<li><p>Create a new <a href="https://rstudio.github.io/radix">Radix article</a> and check it into the GitHub repository (be sure to check in the the Rmd source code and the generated HTML files).</p></li>
+<li><p>Be sure that you’ve included all required <a href="#article-metadata">article metadata</a> (see below for details).</p></li>
+<li><p><a href="https://github.com/rstudio/tensorflow-blog/issues">Post an issue</a> on the TensorFlow for R GitHub repo requesting that we accept your article (be sure to include a link back to your article’s GitHub repo!).</p></li>
+</ol>
+<p>Once we see your issue we’ll take a look at your article, suggest changes as necessary, then publish it when it’s ready.</p>
+<h3 id="article-metadata">Article metadata</h3>
+<p>To be included in the blog, your article should include some standard metadata fields. Here’s an example of a post that includes all required metadata:</p>
+<pre class="markup"><code>
+---
+title: &quot;Classifying physical activity from smartphone data with Keras&quot;
+description: |
+  Using Keras to train a convolutional neural network to classify physical
+  activity. The dataset was built from the recordings of 30 subjects 
+  performing basic activities and postural transitions while carrying a 
+  waist-mounted smartphone with embedded inertial sensors.
+author:
+  - name: Nick Strayer 
+    url: http://nickstrayer.me
+    affiliation: Vanderbilt University
+    affiliation_url: https://www.vanderbilt.edu/biostatistics-graduate/
+date: 07-17-2018
+creative_commons: CC BY
+repository_url: https://github.com/nstrayer/activity_detection_post
+output: 
+  radix::radix_article:
+    self_contained: false
+---</code></pre>
+<p>Note that the <code>author</code> field includes a URL for the author as well as their affiliation (you can include multiple authors). Note also the <code>creative_commons</code> field which marks the article as being share-able (all contributed posts must have a <a href="https://creativecommons.org/">Creative Commons</a> license). Finally, the <code>repository_url</code> is used to provide links from the article back to GitHub.</p>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
