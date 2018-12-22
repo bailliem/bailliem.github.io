@@ -19,20 +19,21 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>My Website: Untitled</title>
+  <title>test blog: Untitled</title>
   
   
+  <link rel="icon" type="image/png" href="images/favicon.png"/>
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="My Website: Untitled"/>
+  <meta property="og:title" content="test blog: Untitled"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="My Website"/>
+  <meta property="og:site_name" content="test blog"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="My Website: Untitled"/>
+  <meta property="twitter:title" content="test blog: Untitled"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
@@ -1255,6 +1256,13 @@
   
   <!--/radix_placeholder_distill-->
   <!--radix_placeholder_site_in_header-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102325748-2"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-102325748-2');
+  </script>
   <!--/radix_placeholder_site_in_header-->
 
 
@@ -1273,11 +1281,19 @@
 <header class="header header--fixed" role="banner">
 <nav class="radix-site-nav radix-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">My Website</a>
+<span class="logo">
+<img src="images/rstudio.png"/>
+</span>
+<a href="index.html" class="title">Blog</a>
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
+<a href="gallery.html">Gallery</a>
 <a href="about.html">About</a>
+<a href="contributing.html">Contributing</a>
+<a href="index.xml">
+<i class="fa fa-rss"></i>
+</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
