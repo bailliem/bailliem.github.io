@@ -1,9 +1,0 @@
----
-title: "Gallery of featured posts"
-listing:
-  posts:
-    - 2017-08-17-tensorflow-v13-released
----
-
-
-
