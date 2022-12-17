@@ -8,4 +8,4 @@ image: image.png
 draft: false
 ---
 
-https://www.nature.com/articles/s41597-022-01789-2
+[Rethinking clinical trial results](https://www.nature.com/articles/s41597-022-01789-2)
