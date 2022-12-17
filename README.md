@@ -1,3 +1,3 @@
-# Test site
+# Work in progress
 
-Test site
+Online notebook collection of projects, publications, code and random thoughts.
