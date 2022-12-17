@@ -1,5 +1,5 @@
 ---
-title: "Welcome"
+title: "Online notebook collection of projects, publications, random thoughts and code"
 listing:
   contents: posts
   sort: "date desc"
