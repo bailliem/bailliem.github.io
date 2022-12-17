@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tristan O’Malley">
-<meta name="dcterms.date" content="2022-12-14">
+<meta name="dcterms.date" content="2022-12-17">
+<meta name="description" content="Simple and practical solutions to tone down your next graph.">
 
-<title>Mark Baillie - Welcome To My Blog</title>
+<title>Mark Baillie - Stop shouting and turn off the caps lock</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -105,9 +105,17 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome To My Blog</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">news</div>
+      <h1 class="title">Stop shouting and turn off the caps lock</h1>
+                  <div>
+        <div class="description">
+          <p>Simple and practical solutions to tone down your next graph.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">line plots</div>
+                <div class="quarto-category">transparency</div>
+                <div class="quarto-category">emphasis</div>
+                <div class="quarto-category">evc</div>
               </div>
                   </div>
   </div>
@@ -115,17 +123,11 @@ ul.task-list li input[type="checkbox"] {
   
   <div class="quarto-title-meta">
 
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Tristan O’Malley </p>
-            </div>
-    </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">December 14, 2022</p>
+        <p class="date">December 17, 2022</p>
       </div>
     </div>
     
@@ -143,9 +145,75 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<p>It’s never nice to be sent a message written in “ALL CAPS”. It’s the internet equivalent of being shouted at. And like that typed email written with the caps lock button on, many graphs generate the same feeling.</p>
+<p>WHEN ALL THE WORDS ARE CAPITALIZED, every word is emphasised. Similarly, when ALL your data is displayed by the same bold visual representation, your graph could be screaming at your readers.</p>
+<p>Spaghetti plots are one of the common offenders. Spaghetti plots often present a collection of bold lines over time. Each line represents an individual patient time course.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="caps_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>You may be lucky and avoid shouting at your graph consumers if you only have a small volume of data to display. But soon enough, you will come across an analysis with more data, and then the shouting begins.</p>
+<p>The graphical solution to switching off the CAPS LOCK is to use lighter colours and tones, thinner lines…</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="caps_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>… and the secret weapon: transparency.</p>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead.</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="caps_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>By changing the patient lines from black to light gray, reducing the width of the line, removing unnecessary symbols, we can dial down the volume from an 11 to a moderate 3 or 4.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="caps_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>And we can quieten down the shouting further by using transparency to push the lines into the background.</p>
+<p>These similar steps give us some breathing space to give a voice to the data we want to emphasise. We may want to highlight a treatment average, a difference or in this example draw attention to a patient of interest. By dialing back the volume, we can then use bolder colours, thicker lines and less transparency to highlight information we want to make louder.</p>
+<p>So next time you are producing a graph, think about keeping your finger off that CAPS LOCK.</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>R version 4.1.2 (2021-11-01)
+Platform: x86_64-apple-darwin17.0 (64-bit)
+Running under: macOS Big Sur 10.16
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRblas.0.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] janitor_2.1.0 readr_2.1.1   dplyr_1.0.10  ggplot2_3.4.0
+
+loaded via a namespace (and not attached):
+ [1] compiler_4.1.2    pillar_1.7.0      tools_4.1.2       bit_4.0.4        
+ [5] digest_0.6.29     lubridate_1.8.0   jsonlite_1.7.2    evaluate_0.16    
+ [9] lifecycle_1.0.3   tibble_3.1.7      gtable_0.3.1      pkgconfig_2.0.3  
+[13] rlang_1.0.6       DBI_1.1.2         cli_3.4.1         rstudioapi_0.13  
+[17] curl_4.3.2        parallel_4.1.2    yaml_2.2.1        xfun_0.31        
+[21] fastmap_1.1.0     withr_2.5.0       stringr_1.4.0     knitr_1.40       
+[25] hms_1.1.1         generics_0.1.2    vctrs_0.5.1       htmlwidgets_1.5.4
+[29] bit64_4.0.5       grid_4.1.2        tidyselect_1.1.2  snakecase_0.11.0 
+[33] glue_1.6.2        R6_2.5.1          fansi_1.0.3       vroom_1.5.7      
+[37] rmarkdown_2.16    farver_2.1.0      tzdb_0.2.0        purrr_0.3.4      
+[41] magrittr_2.0.3    scales_1.2.1      htmltools_0.5.4   ellipsis_0.3.2   
+[45] assertthat_0.2.1  colorspace_2.0-3  labeling_0.4.2    utf8_1.2.2       
+[49] stringi_1.7.6     munsell_0.5.0     crayon_1.5.1     </code></pre>
+</div>
+</div>
 
 
 

@@ -2,18 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/bailliem/bailliem.github.io/about.html</loc>
-    <lastmod>2022-12-17T12:58:17.435Z</lastmod>
+    <lastmod>2022-12-17T13:58:22.292Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/bailliem/bailliem.github.io/LICENSE.html</loc>
+    <lastmod>2022-12-17T13:58:23.096Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/bailliem/bailliem.github.io/posts/caps/caps.html</loc>
+    <lastmod>2022-12-17T13:58:23.444Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/bailliem/bailliem.github.io/posts/welcome/index.html</loc>
-    <lastmod>2022-12-17T12:58:18.103Z</lastmod>
+    <lastmod>2022-12-17T13:58:23.724Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/bailliem/bailliem.github.io/posts/post-with-code/index.html</loc>
-    <lastmod>2022-12-17T12:58:18.579Z</lastmod>
+    <lastmod>2022-12-17T13:58:24.172Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/bailliem/bailliem.github.io/index.html</loc>
-    <lastmod>2022-12-17T12:58:18.907Z</lastmod>
+    <lastmod>2022-12-17T13:58:24.488Z</lastmod>
   </url>
 </urlset>
