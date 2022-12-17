@@ -1,0 +1,11 @@
+---
+title: "Analysis results data sets"
+description: |
+  Rethinking what the data analysis target is.  
+date: 12-17-2022
+categories: [ards, FAIR, data science, data stewardship]
+image: image.png
+draft: false
+---
+
+https://www.nature.com/articles/s41597-022-01789-2
