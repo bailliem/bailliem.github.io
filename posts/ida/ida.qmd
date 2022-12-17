@@ -3,8 +3,8 @@ title: "Initial data analysis"
 description: |
   Ten simple (?) rules.  
 date: 12-17-2022
-categories: [good practice, ida]
-image: 
+categories: [good practice, ida, data analysis]
+image: image.png
 draft: false
 ---
 

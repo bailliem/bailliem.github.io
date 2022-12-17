@@ -3,7 +3,7 @@ title: "Thoughts on exploratory data analysis"
 description: |
   Can thinking broader than statistics help improve data analysis practice? 
 date: 12-17-2022
-categories: [gdsp, good practice, data science]
+categories: [gdsp, good practice, data science, critical thinking]
 image: https://upload.wikimedia.org/wikipedia/commons/a/ac/Iceberg.jpg
 draft: false
 ---
