@@ -1,0 +1,14 @@
+---
+title: "Thoughts on exploratoy data analysis"
+description: |
+  Can thinking broader than statistics help improve data analysis practice? 
+date: 12-17-2022
+categories: [gdsp, good practice, data science]
+image: https://upload.wikimedia.org/wikipedia/commons/a/ac/Iceberg.jpg
+draft: false
+---
+
+Good Data Science Practice: Moving Toward a Code of Practice for Drug Development, April 2022. Statistics in Biopharmaceutical Research. DOI:10.1080/19466315.2022.2063172
+
+
+https://www.tandfonline.com/doi/abs/10.1080/19466315.2022.2063172?journalCode=usbr20
