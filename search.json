@@ -30,22 +30,29 @@
   {
     "objectID": "posts/gdsp/gdsp.html",
     "href": "posts/gdsp/gdsp.html",
-    "title": "Thoughts on exploratoy data analysis",
+    "title": "Thoughts on exploratory data analysis",
     "section": "",
-    "text": "Good Data Science Practice: Moving Toward a Code of Practice for Drug Development, April 2022. Statistics in Biopharmaceutical Research. DOI:10.1080/19466315.2022.2063172\nhttps://www.tandfonline.com/doi/abs/10.1080/19466315.2022.2063172?journalCode=usbr20"
+    "text": "Good Data Science Practice: Moving Toward a Code of Practice for Drug Development, April 2022. Statistics in Biopharmaceutical Research. DOI:10.1080/19466315.2022.2063172"
+  },
+  {
+    "objectID": "posts/ida/ida.html",
+    "href": "posts/ida/ida.html",
+    "title": "Initial data analysis",
+    "section": "",
+    "text": "IDA: ten simple rules"
   },
   {
     "objectID": "posts/ards/ards.html",
     "href": "posts/ards/ards.html",
     "title": "Analysis results data sets",
     "section": "",
-    "text": "https://www.nature.com/articles/s41597-022-01789-2"
+    "text": "Rethinking clinical trial results"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Online notebook collection of projects, publications, code and random thoughts.",
     "section": "",
-    "text": "Stop shouting and turn off the caps lock\n\n\n\nline plots\n\n\ntransparency\n\n\nemphasis\n\n\nevc\n\n\n\nSimple and practical solutions to tone down your next graph.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThoughts on exploratoy data analysis\n\n\n\ngdsp\n\n\ngood practice\n\n\ndata science\n\n\n\nCan thinking broader than statistics help improve data analysis practice?\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis results data sets\n\n\n\nards\n\n\nFAIR\n\n\ndata science\n\n\ndata stewardship\n\n\n\nRethinking what the data analysis target is.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\nDec 14, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Stop shouting and turn off the caps lock\n\n\n\nline plots\n\n\ntransparency\n\n\nemphasis\n\n\nevc\n\n\n\nSimple and practical solutions to tone down your next graph.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThoughts on exploratory data analysis\n\n\n\ngdsp\n\n\ngood practice\n\n\ndata science\n\n\ncritical thinking\n\n\n\nCan thinking broader than statistics help improve data analysis practice?\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitial data analysis\n\n\n\ngood practice\n\n\nida\n\n\ndata analysis\n\n\n\nTen simple (?) rules.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis results data sets\n\n\n\nards\n\n\nFAIR\n\n\ndata science\n\n\ndata stewardship\n\n\n\nRethinking what the data analysis target is.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\nDec 14, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
