@@ -1,0 +1,13 @@
+---
+title: "Initial data analysis"
+description: |
+  Ten simple (?) rules.  
+date: 12-17-2022
+categories: [good practice, ida]
+image: 
+draft: false
+---
+
+[IDA: ten simple rules](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009819)
+
+
