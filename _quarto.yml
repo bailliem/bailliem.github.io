@@ -6,15 +6,19 @@ website:
   title: "Mark Baillie"
   navbar:
     right:
-      - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/bailliem
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mark-baillie-52486735/
+      - about.qmd
 format:
   html:
     theme: yeti
     css: styles.css
+    code-tools:
+      source: true
+      toggle: true
+      caption: none
 
 editor: visual
 
