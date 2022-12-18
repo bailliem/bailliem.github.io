@@ -10,6 +10,10 @@ about:
     - icon: github
       text: Github
       href: https://github.com/bailliem
+    - text: PSI VIS
+      href: https://vis-sig.github.io/blog/
+    - text: Graphics principles 
+      href: http://graphicsprinciples.github.io/
 ---
 
 Statistician working in Pharma. 
