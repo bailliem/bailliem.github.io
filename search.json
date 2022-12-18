@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "Statistician working in Pharma."
   },
   {
     "objectID": "LICENSE.html",
@@ -23,7 +23,7 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Hello world",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
@@ -32,27 +32,27 @@
     "href": "posts/gdsp/gdsp.html",
     "title": "Thoughts on exploratory data analysis",
     "section": "",
-    "text": "Good Data Science Practice: Moving Toward a Code of Practice for Drug Development, April 2022. Statistics in Biopharmaceutical Research. DOI:10.1080/19466315.2022.2063172"
+    "text": "Good Data Science Practice: Moving Toward a Code of Practice for Drug Development: Moving Toward a Code of Practice for Drug Development, April 2022. Statistics in Biopharmaceutical Research. DOI:10.1080/19466315.2022.2063172\nThere is growing interest in data science and the challenges that scientists can solve through its application. The growing interest is in part due to the promise of “extracting value from data.” The pharmaceutical industry is no different in this regard reflected by the advancement and excitement surrounding data science. Data science brings new perspectives, new methods, new skill sets and the wider use of new data modalities. For example, there is a belief that extracting value from data integrated from multiple sources and modalities using advances in statistics, machine learning, informatics and computation can answer fundamental questions. These questions span a variety of themes including disease understanding, drug and target discovery, and trial design. By answering fundamental questions, we cannot only increase knowledge and understanding but more importantly inform decision making; accelerating drug development through data-driven prioritization, increasingly precise and accurate measurements, optimized trial designs and operational excellence. However, with the promise of data science, there are obstacles to overcome, especially if data science is to live up to this promise and deliver a positive impact. These obstacles include consensus on the definition of data science, the relationship between data science and existing fields such as statistics and computing science, what should be involved in the day-to-day practices of data science, and what is “good” practice. In this article, we cover these themes, highlighting issues with scientific practice from five perspectives and argue how advances in data science will not be immune, especially exploratory, investigative, and innovative activities. We propose a definition of data science as a coming together but also a refocusing of established disciplines leading to a framework for good practice. In doing so, we aim to begin a dialogue on good data science practice in the context of drug development, where there is no industry view or consensus."
   },
   {
     "objectID": "posts/ida/ida.html",
     "href": "posts/ida/ida.html",
     "title": "Initial data analysis",
     "section": "",
-    "text": "IDA: ten simple rules"
+    "text": "Baillie M, le Cessie S, Schmidt CO, Lusa L, Huebner M, et al. (2022). Ten simple rules for initial data analysis PLOS Computational Biology 18(2): e1009819. https://doi.org/10.1371/journal.pcbi.1009819\nWe have developed 10 rules to explain IDA and the benefits of adopting IDA in practice. The 10 rules are based on extensive experience with research projects, collaborations with domain experts, and discussions among an international group of applied statisticians. However, an understanding of IDA is important not only for statisticians but for all researchers who analyze data (e.g., epidemiologists, computational biologists, bioinformaticians, machine learning experts) or consume the outputs of data analysis (e.g., domain experts). These rules are applicable for small and large collaborative research projects, whether for primary data collection or repurposing an existing data set, and for data of all shapes and sizes including “big data.” A caveat for these 10 rules is that IDA is not an off-the-shelf cookbook. As with all good practice, IDA strategies require careful thinking and design based on the problem and context, not the preference of the analyst. Remember, “there are no routine statistical questions, only questionable statistical routines (David R. Cox)”"
   },
   {
     "objectID": "posts/ards/ards.html",
     "href": "posts/ards/ards.html",
     "title": "Analysis results data sets",
     "section": "",
-    "text": "Rethinking clinical trial results"
+    "text": "Barros, J.M., Widmer, L.A., Baillie, M. et al. Rethinking clinical study data: why we should respect analysis results as data. Sci Data 9, 686 (2022). https://doi.org/10.1038/s41597-022-01789-2"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Online notebook collection of projects, publications, code and random thoughts.",
     "section": "",
-    "text": "Stop shouting and turn off the caps lock\n\n\n\nline plots\n\n\ntransparency\n\n\nemphasis\n\n\nevc\n\n\n\nSimple and practical solutions to tone down your next graph.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThoughts on exploratory data analysis\n\n\n\ngdsp\n\n\ngood practice\n\n\ndata science\n\n\ncritical thinking\n\n\n\nCan thinking broader than statistics help improve data analysis practice?\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitial data analysis\n\n\n\ngood practice\n\n\nida\n\n\ndata analysis\n\n\n\nTen simple (?) rules.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis results data sets\n\n\n\nards\n\n\nFAIR\n\n\ndata science\n\n\ndata stewardship\n\n\n\nRethinking what the data analysis target is.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\nDec 14, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Stop shouting and turn off the caps lock\n\n\n\nline plots\n\n\ntransparency\n\n\nemphasis\n\n\nevc\n\n\n\nSimple and practical solutions to tone down your next graph.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThoughts on exploratory data analysis\n\n\n\ngdsp\n\n\ngood practice\n\n\ndata science\n\n\ncritical thinking\n\n\n\nCan developing critical thinking, broader than statistics issues, help improve data analysis practice, especially in the exploratory setting?\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitial data analysis\n\n\n\ngood practice\n\n\nida\n\n\ndata analysis\n\n\n\nTen simple rules to help provide a better foundation for data analysis.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis results data sets\n\n\n\nards\n\n\nFAIR\n\n\ndata science\n\n\ndata stewardship\n\n\n\nRethinking what the data analysis target is.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\nDec 14, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

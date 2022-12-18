@@ -1,1 +1,1 @@
-Sitemap: https://github.com/bailliem/bailliem.github.io/sitemap.xml
+Sitemap: https://bailliem.github.io/sitemap.xml

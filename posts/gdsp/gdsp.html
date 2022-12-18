@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2022-12-17">
-<meta name="description" content="Can thinking broader than statistics help improve data analysis practice?">
+<meta name="description" content="Can developing critical thinking, broader than statistics issues, help improve data analysis practice, especially in the exploratory setting?">
 
 <title>Mark Baillie - Thoughts on exploratory data analysis</title>
 <style>
@@ -100,10 +100,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -171,7 +171,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="quarto-title-block"><div><h1 class="title">Thoughts on exploratory data analysis</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i></button></div></div>
                   <div>
         <div class="description">
-          <p>Can thinking broader than statistics help improve data analysis practice?</p>
+          <p>Can developing critical thinking, broader than statistics issues, help improve data analysis practice, especially in the exploratory setting?</p>
         </div>
       </div>
                           <div class="quarto-categories">
@@ -208,7 +208,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-<p><a href="https://www.tandfonline.com/doi/abs/10.1080/19466315.2022.2063172?journalCode=usbr20">Good Data Science Practice</a>: Moving Toward a Code of Practice for Drug Development, April 2022. Statistics in Biopharmaceutical Research. DOI:10.1080/19466315.2022.2063172</p>
+<p><a href="https://doi.org/10.1080/19466315.2022.2063172">Good Data Science Practice: Moving Toward a Code of Practice for Drug Development</a>: Moving Toward a Code of Practice for Drug Development, April 2022. Statistics in Biopharmaceutical Research. DOI:10.1080/19466315.2022.2063172</p>
+<p>There is growing interest in data science and the challenges that scientists can solve through its application. The growing interest is in part due to the promise of “extracting value from data.” The pharmaceutical industry is no different in this regard reflected by the advancement and excitement surrounding data science. Data science brings new perspectives, new methods, new skill sets and the wider use of new data modalities. For example, there is a belief that extracting value from data integrated from multiple sources and modalities using advances in statistics, machine learning, informatics and computation can answer fundamental questions. These questions span a variety of themes including disease understanding, drug and target discovery, and trial design. By answering fundamental questions, we cannot only increase knowledge and understanding but more importantly inform decision making; accelerating drug development through data-driven prioritization, increasingly precise and accurate measurements, optimized trial designs and operational excellence. However, with the promise of data science, there are obstacles to overcome, especially if data science is to live up to this promise and deliver a positive impact. These obstacles include consensus on the definition of data science, the relationship between data science and existing fields such as statistics and computing science, what should be involved in the day-to-day practices of data science, and what is “good” practice. In this article, we cover these themes, highlighting issues with scientific practice from five perspectives and argue how advances in data science will not be immune, especially exploratory, investigative, and innovative activities. We propose a definition of data science as a coming together but also a refocusing of established disciplines leading to a framework for good practice. In doing so, we aim to begin a dialogue on good data science practice in the context of drug development, where there is no industry view or consensus.</p>
 
 
 <!-- -->
@@ -402,15 +403,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Thoughts on exploratory data analysis"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> |</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">  Can thinking broader than statistics help improve data analysis practice? </span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">  Can developing critical thinking, broader than statistics issues, help improve data analysis practice, especially in the exploratory setting? </span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 12-17-2022</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> [gdsp, good practice, data science, critical thinking]</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="an">image:</span><span class="co"> https://upload.wikimedia.org/wikipedia/commons/a/ac/Iceberg.jpg</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="an">draft:</span><span class="co"> false</span></span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Good Data Science Practice</span><span class="co">](https://www.tandfonline.com/doi/abs/10.1080/19466315.2022.2063172?journalCode=usbr20)</span>: Moving Toward a Code of Practice for Drug Development, April 2022. Statistics in Biopharmaceutical Research. DOI:10.1080/19466315.2022.2063172</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Good Data Science Practice: Moving Toward a Code of Practice for Drug Development</span><span class="co">](https://doi.org/10.1080/19466315.2022.2063172)</span>: Moving Toward a Code of Practice for Drug Development, April 2022. Statistics in Biopharmaceutical Research. DOI:10.1080/19466315.2022.2063172</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>There is growing interest in data science and the challenges that scientists can solve through its application. The growing interest is in part due to the promise of “extracting value from data.” The pharmaceutical industry is no different in this regard reflected by the advancement and excitement surrounding data science. Data science brings new perspectives, new methods, new skill sets and the wider use of new data modalities. For example, there is a belief that extracting value from data integrated from multiple sources and modalities using advances in statistics, machine learning, informatics and computation can answer fundamental questions. These questions span a variety of themes including disease understanding, drug and target discovery, and trial design. By answering fundamental questions, we cannot only increase knowledge and understanding but more importantly inform decision making; accelerating drug development through data-driven prioritization, increasingly precise and accurate measurements, optimized trial designs and operational excellence. However, with the promise of data science, there are obstacles to overcome, especially if data science is to live up to this promise and deliver a positive impact. These obstacles include consensus on the definition of data science, the relationship between data science and existing fields such as statistics and computing science, what should be involved in the day-to-day practices of data science, and what is “good” practice. In this article, we cover these themes, highlighting issues with scientific practice from five perspectives and argue how advances in data science will not be immune, especially exploratory, investigative, and innovative activities. We propose a definition of data science as a coming together but also a refocusing of established disciplines leading to a framework for good practice. In doing so, we aim to begin a dialogue on good data science practice in the context of drug development, where there is no industry view or consensus.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
