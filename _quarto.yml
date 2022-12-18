@@ -15,7 +15,7 @@ website:
       - about.qmd
 format:
   html:
-    theme: yeti
+    theme: solar
     css: styles.css
     code-tools:
       source: true
