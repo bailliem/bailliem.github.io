@@ -2,7 +2,7 @@
 title: "Stop shouting and turn off the caps lock"
 description: |
   Simple and practical solutions to tone down your next graph. 
-date: 12-17-2022
+date: 12-17-2021
 categories: [line plots, transparency, emphasis, evc]
 image: image.png
 draft: false
@@ -28,12 +28,11 @@ mydata <- mydata %>%
 theme_set(theme_light())
 ```
 
-It’s never fun to recieve an “ALL CAPS” email. It’s the internet equivalent of being shouted at. And like that typed email written with the caps lock button on, many graphs generate the same feeling. 
+It's never fun to recieve an "ALL CAPS" email. It's the internet equivalent of being shouted at. And like that typed email written with the caps lock button on, many graphs generate the same feeling.
 
-WHEN ALL THE WORDS ARE CAPITALIZED, every word is emphasised. Similarly, when ALL your data is displayed by the same bold visual representation, your chart could be shouting at your readers. 
+WHEN ALL THE WORDS ARE CAPITALIZED, every word is emphasised. Similarly, when ALL your data is displayed by the same bold visual representation, your chart could be shouting at your readers.
 
-Spaghetti plots are one of the common offenders - a typical culprit displays bold lines over time. In the example below, each line represents an individual patient time course as measured in a clinical trial. For good measure, additional dots are also used to display the observed measurements.  
-
+Spaghetti plots are one of the common offenders - a typical culprit displays bold lines over time. In the example below, each line represents an individual patient time course as measured in a clinical trial. For good measure, additional dots are also used to display the observed measurements.
 
 ```{r shout}
 mydata %>%
@@ -43,11 +42,9 @@ mydata %>%
   geom_point()
 ```
 
+You may be lucky and avoid shouting at your chart consumers if you only have a small volume of data. But soon enough, more data will arrive, and then the shouting begins.
 
-You may be lucky and avoid shouting at your chart consumers if you only have a small volume of data. But soon enough, more data will arrive, and then the shouting begins. 
-
-Some graphical solutions to switching off the CAPS LOCK are to use lighter colours and tones, thinner lines, remove the symbols, ... 
-
+Some graphical solutions to switching off the CAPS LOCK are to use lighter colours and tones, thinner lines, remove the symbols, ...
 
 ```{r}
 mydata %>%
@@ -57,7 +54,6 @@ mydata %>%
 ```
 
 ... and the secret weapon: transparency.
- 
 
 ```{r}
 mydata %>%
@@ -66,8 +62,7 @@ mydata %>%
   geom_line(alpha = 0.3, size = 0.3)
 ```
 
-By changing the patient lines from black to light gray, reducing the width of the line, removing unnecessary symbols, we can dial down the volume from an 11 to a moderate 3 or 4. 
-
+By changing the patient lines from black to light gray, reducing the width of the line, removing unnecessary symbols, we can dial down the volume from an 11 to a moderate 3 or 4.
 
 ```{r}
 mydata %>%
@@ -84,8 +79,8 @@ mydata %>%
 
 ```
 
-And we can quieten down the shouting further by using transparency to push the lines into the background. 
+And we can quieten down the shouting further by using transparency to push the lines into the background.
 
-These similar steps give us some breathing space to give a voice to the data we want to emphasise. For example, we may want to highlight a treatment average, a difference or in this example draw attention to a patient of interest. By dialing back the volume, we can then use bolder colours, thicker lines and less transparency to highlight information we want to make louder. 
+These similar steps give us some breathing space to give a voice to the data we want to emphasise. For example, we may want to highlight a treatment average, a difference or in this example draw attention to a patient of interest. By dialing back the volume, we can then use bolder colours, thicker lines and less transparency to highlight information we want to make louder.
 
-So next time you are producing a graph, think about keeping your finger off that CAPS LOCK. 
+So next time you are producing a graph, think about keeping your finger off that CAPS LOCK.
