@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Mark Baillie"
+  site-url: https://bailliem.github.io
+  description: "Work in progress"
   navbar:
     right:
       - icon: github
@@ -13,7 +15,7 @@ website:
       - about.qmd
 format:
   html:
-    theme: yeti
+    theme: solar
     css: styles.css
     code-tools:
       source: true
