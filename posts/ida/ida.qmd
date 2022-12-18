@@ -1,13 +1,13 @@
 ---
 title: "Initial data analysis"
 description: |
-  Ten simple (?) rules.  
+  Ten simple rules to help provide a better foundation for data analysis.
 date: 12-17-2022
 categories: [good practice, ida, data analysis]
 image: image.png
 draft: false
 ---
 
-[IDA: ten simple rules](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009819)
+Baillie M, le Cessie S, Schmidt CO, Lusa L, Huebner M, et al. (2022). [Ten simple rules for initial data analysis](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009819) PLOS Computational Biology 18(2): e1009819. https://doi.org/10.1371/journal.pcbi.1009819
 
-
+We have developed 10 rules to explain IDA and the benefits of adopting IDA in practice. The 10 rules are based on extensive experience with research projects, collaborations with domain experts, and discussions among an international group of applied statisticians. However, an understanding of IDA is important not only for statisticians but for all researchers who analyze data (e.g., epidemiologists, computational biologists, bioinformaticians, machine learning experts) or consume the outputs of data analysis (e.g., domain experts). These rules are applicable for small and large collaborative research projects, whether for primary data collection or repurposing an existing data set, and for data of all shapes and sizes including “big data.” A caveat for these 10 rules is that IDA is not an off-the-shelf cookbook. As with all good practice, IDA strategies require careful thinking and design based on the problem and context, not the preference of the analyst. Remember, “there are no routine statistical questions, only questionable statistical routines (David R. Cox)” 

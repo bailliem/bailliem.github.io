@@ -8,4 +8,4 @@ image: image.png
 draft: false
 ---
 
-[Rethinking clinical trial results](https://www.nature.com/articles/s41597-022-01789-2)
+Barros, J.M., Widmer, L.A., Baillie, M. et al. [Rethinking clinical study data: why we should respect analysis results as data](https://www.nature.com/articles/s41597-022-01789-2). Sci Data 9, 686 (2022). https://doi.org/10.1038/s41597-022-01789-2

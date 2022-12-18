@@ -1,5 +1,5 @@
 ---
-title: "Welcome To My Blog"
+title: "Hello world"
 date: "2022-12-14"
 categories: [news]
 ---
