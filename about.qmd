@@ -16,5 +16,4 @@ about:
       href: http://graphicsprinciples.github.io/
 ---
 
-Statistician working in Pharma. 
-
+Statistician working in Pharma.

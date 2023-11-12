@@ -1,12 +1,22 @@
 ---
-title: "Online collection of projects, publications, code, and other random thoughts"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: grid
-  categories: true
-  sort-ui: false
-  filter-ui: false
+title: "Striving to be useful"
+description: "A statistician working in Pharma"
+image: profile1.jpg
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: linkedIn
+      href: https://www.linkedin.com/in/bailliem
+    - icon: github
+      text: github
+      href: https://github.com/bailliem
+    - text: PSI VIS
+      href: https://vis-sig.github.io/blog/
+    - text: Graphics principles 
+      href: http://graphicsprinciples.github.io/
+
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 ---
+
