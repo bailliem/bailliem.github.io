@@ -1,0 +1,17 @@
+---
+title: "Lessons from a company wide data visualization initiative"
+description: |
+  Presenting to efspi/PSDM Meeting on Data Visualisation
+date: 04-13-2023
+categories: [graphics, ards, evc, slides]
+image: https://graphicsprinciples.github.io/assets/2018-11-06_thumbnail.png
+draft: false
+---
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRnNkO9anUxgWmFOJCd1-9FYqNIlvv6mSzKnsnIFSBY9Qj_YyARBAnUQqGelg7p4Sk2UpsDlOEpVQgF/embed?start=true&amp;loop=false&amp;delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
+
+-   [meeting overview](https://www.efspi.org/EFSPI/Events/Meeting_Items/PSDM_Meeting_on_Data_Visualisation.aspx)
+-   [flyer](https://www.efspi.org/documents/events/PSDM_EFSPI_DataVisualisation_Agenda_version29Mar2023.pdf)
+-   [slides](https://www.efspi.org/documents/events/DataVis_04_Baillie.pdf)

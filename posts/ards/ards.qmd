@@ -3,7 +3,7 @@ title: "Analysis results data sets"
 description: |
   Rethinking what the data analysis target is.  
 date: 11-17-2022
-categories: [ards, FAIR, data science, data stewardship]
+categories: [ards, FAIR, data engineering, data science, data stewardship]
 image: image.png
 draft: false
 ---
