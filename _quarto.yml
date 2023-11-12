@@ -11,12 +11,12 @@ website:
   repo-url: https://github.com/bailliem.github.io
   repo-actions: [edit, issue]
   
-  page-footer:
-    left: "This page is written with [Quarto](https://quarto.org/)."
-    background: "#ffffff"
-    right:
-    - text: "License"
-      href: LICENSE.md
+  # page-footer:
+  #   left: "This page is written with [Quarto](https://quarto.org/)."
+  #   background: "#ffffff"
+  #   right:
+  #   - text: "License"
+  #     href: LICENSE.md
       
   navbar:
     background: "#ffffff"

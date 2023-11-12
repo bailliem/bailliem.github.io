@@ -3,7 +3,7 @@ title: "Striving to be useful"
 description: "A statistician working in Pharma"
 image: profile1.jpg
 about:
-  template: trestles
+  template: jolla #trestles
   links:
     - icon: linkedin
       text: linkedIn
