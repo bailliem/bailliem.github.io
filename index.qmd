@@ -1,9 +1,9 @@
 ---
-title: "Striving to be useful"
-description: "A statistician working in Pharma"
+title: "a statistician working in pharma"
+description: "striving to be useful"
 image: profile1.jpg
 about:
-  template: jolla #trestles
+  template: jolla
   links:
     - icon: linkedin
       text: linkedIn

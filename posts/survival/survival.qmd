@@ -3,7 +3,7 @@ title: "Six simple survival tips"
 description: |
   Presentation at PSI 2022 conference. 
 date: 07-05-2022
-categories: [KM plots, data vis, evc]
+categories: [KM plots, visualisation, evc]
 image: survival.png
 draft: false
 ---

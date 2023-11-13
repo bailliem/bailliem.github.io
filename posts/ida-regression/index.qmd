@@ -3,7 +3,7 @@ title: "IDA for regression"
 description: |
   Guidance on conducting initial data analysis in a reproducible manner in the context of intended regression analyses.
 date: 11-05-2023
-categories: [ida, quarto, regression, daa analysis]
+categories: [ida, notebook, regression, analysis]
 image: https://stratosida.github.io/regression-regrets/Bact_univar_files/figure-html/uni02-2.png
 draft: false
 ---

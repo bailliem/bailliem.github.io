@@ -1,0 +1,40 @@
+---
+title: "projects"
+description: "A collection of projects"
+image: profile1.jpg
+toc: true
+search: false
+sidebar_position: 1
+#about:
+#  template: trestles
+---
+
+Below is a collection of projects I have involved with. 
+
+### Graphics principles 
+
+Some text and links
+
+### EVC
+
+Some text and links
+
+### ARDs
+
+Some text and links
+
+### visR
+
+Some text and links
+
+### ggsurvfit 
+
+Some text and links
+
+### DMCs
+
+Some text and links
+
+### Good data science practice 
+
+Some text and links
