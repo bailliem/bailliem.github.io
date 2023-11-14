@@ -5,27 +5,32 @@ project:
 website:
   title: "Mark Baillie"
   site-url: https://bailliem.github.io
-  description: "Striving to be useful"
+  description: "Tiny changes"
   page-navigation: false
+  
+  page-footer:
+    left: "This page is produced with [Quarto](https://quarto.org/)."
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/bailliem/
+      - icon: github
+        href: https://github.com/bailliem
+      - text: "License"
+        href: LICENSE.md
   
   repo-url: https://github.com/bailliem.github.io
   repo-actions: [edit, issue]
   
-  # page-footer:
-  #   left: "This page is written with [Quarto](https://quarto.org/)."
-  #   background: "#ffffff"
-  #   right:
-  #   - text: "License"
-  #     href: LICENSE.md
-      
   navbar:
     background: "#ffffff"
-    align: center
+    align: left
     title: "Mark Baillie"
 
     left: 
-      - href: index.qmd
-        text: home
+      - href: about.qmd
+        text: about
+      - href: projects.qmd
+        text: projects
       - href: posts/index.qmd
         text: notes
     right:
@@ -36,7 +41,7 @@ website:
 
 format:
   html:
-    theme: yeti #cosmo 
+    theme: cosmo #yeti #cosmo #solar 
     toc: true
     code-copy: true
     code-overflow: wrap

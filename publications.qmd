@@ -1,22 +1,19 @@
 ---
-title: "a statistician working in pharma"
-description: "striving to be useful"
+title: "About"
 image: profile1.jpg
 about:
   template: jolla
   links:
     - icon: linkedin
-      text: linkedIn
-      href: https://www.linkedin.com/in/bailliem
+      text: LinkedIn
+      href: https://www.linkedin.com/in/mark-baillie-52486735/
     - icon: github
-      text: github
+      text: Github
       href: https://github.com/bailliem
     - text: PSI VIS
       href: https://vis-sig.github.io/blog/
     - text: Graphics principles 
       href: http://graphicsprinciples.github.io/
-
-page-layout: full
-title-block-banner: false
 ---
 
+Statistician working in Pharma.

@@ -1,13 +1,14 @@
 ---
-title: "Online collection of projects, publications, code, and other random thoughts"
+title: "My notes"
+description: "An online collection of projects, publications, code, and other random thoughts"
 listing:
   contents: 
     - "*.qmd"
   sort: "date desc"
   type: grid
   categories: true
-  sort-ui: true
-  filter-ui: true
+  sort-ui: false
+  filter-ui: false
 page-layout: full
 title-block-banner: false
 ---
