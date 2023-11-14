@@ -2,46 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bailliem.github.io/posts/gdsp/gdsp.html</loc>
-    <lastmod>2023-11-12T21:17:50.417Z</lastmod>
+    <lastmod>2023-11-14T14:00:32.526Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/posts/vis-lessons/index.html</loc>
-    <lastmod>2023-11-12T21:17:49.873Z</lastmod>
+    <lastmod>2023-11-14T14:00:31.862Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/posts/ards/ards.html</loc>
-    <lastmod>2023-11-12T21:17:48.681Z</lastmod>
+    <lastmod>2023-11-14T14:00:30.366Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/posts/caps/caps.html</loc>
-    <lastmod>2023-11-12T21:17:48.197Z</lastmod>
+    <lastmod>2023-11-14T14:00:29.738Z</lastmod>
   </url>
   <url>
-    <loc>https://bailliem.github.io/about.html</loc>
-    <lastmod>2023-11-12T21:17:47.585Z</lastmod>
+    <loc>https://bailliem.github.io/projects.html</loc>
+    <lastmod>2023-11-14T14:00:29.018Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bailliem.github.io/publications.html</loc>
+    <lastmod>2023-11-14T14:00:28.402Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/LICENSE.html</loc>
-    <lastmod>2023-11-12T21:17:46.801Z</lastmod>
+    <lastmod>2023-11-14T14:00:27.430Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/index.html</loc>
-    <lastmod>2023-11-12T21:17:47.329Z</lastmod>
+    <lastmod>2023-11-14T14:00:28.094Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bailliem.github.io/about.html</loc>
+    <lastmod>2023-11-14T14:00:28.718Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/posts/ida/ida.html</loc>
-    <lastmod>2023-11-12T21:17:47.877Z</lastmod>
+    <lastmod>2023-11-14T14:00:29.358Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/posts/survival/survival.html</loc>
-    <lastmod>2023-11-12T21:17:48.437Z</lastmod>
+    <lastmod>2023-11-14T14:00:30.034Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/posts/index.html</loc>
-    <lastmod>2023-11-12T21:17:49.629Z</lastmod>
+    <lastmod>2023-11-14T14:00:31.562Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/posts/ida-regression/index.html</loc>
-    <lastmod>2023-11-12T21:17:50.141Z</lastmod>
+    <lastmod>2023-11-14T14:00:32.186Z</lastmod>
   </url>
 </urlset>
