@@ -6,18 +6,16 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/mark-baillie-52486735/
+      href: https://www.linkedin.com/in/bailliem
+    - icon: briefcase-fill
+      text: CV
+      href: https://www.linkedin.com/in/bailliem
+    - icon: journal-text
+      text: ORCID
+      href: https://orcid.org/0000-0002-5618-0667
     - icon: github
       text: Github
       href: https://github.com/bailliem
-    - text: PSI VIS
-      href: https://vis-sig.github.io/blog/
-    - text: Graphics principles 
-      href: http://graphicsprinciples.github.io/
 ---
 
-### Statistician working in Pharma.
-
-### Statistician working in Pharma.
-
-### Statistician working in Pharma.
+Experienced consultant and methodologist with a demonstrated track record of delivering projects in industry, civil service, and academia. Skilled in statistical thinking, data analysis and modelling, data engineering, machine learning, visualization, effective communication, and project leadership. Written by a robot. 
