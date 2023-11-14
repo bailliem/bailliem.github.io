@@ -18,4 +18,10 @@ about:
       href: https://github.com/bailliem
 ---
 
+## Bio
+
+[**Mark Baillie**](https://bailliem.github.io) is a member of the Advanced Methodology and Data Science group at Novartis. He focuses on [methodology](https://www.tandfonline.com/doi/full/10.1080/19466315.2022.2063172?src=recsys) to support drug development, working on a variety of internal and external initiatives to improve the reporting of clinical trials. These include [effective visual communication](https://graphicsprinciples.github.io/), [initial data analysis](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009819), [DMC reporting](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07290-4), [analysis results standards](https://www.nature.com/articles/s41597-022-01789-2), and [data challenges](https://arxiv.org/abs/2304.05658). Mark is a member of the [Stratos initiative](https://stratos-initiative.org/en) and the PSI [visualisation](https://github.com/VIS-SIG) special interest group.  
+
+## Robot bio
+
 Experienced consultant and methodologist with a demonstrated track record of delivering projects in industry, civil service, and academia. Skilled in statistical thinking, data analysis and modelling, data engineering, machine learning, visualization, effective communication, and project leadership. Written by a robot. 
