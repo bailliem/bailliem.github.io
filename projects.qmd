@@ -1,5 +1,5 @@
 ---
-title: "projects"
+title: "WIP: projects"
 description: "A collection of projects"
 image: profile1.jpg
 toc: true
@@ -38,3 +38,29 @@ Some text and links
 ### Good data science practice 
 
 Some text and links
+
+### Synthetic data 
+
+Some text and links
+
+Slides http://replica-analytics.com/wp-content/uploads/2023/02/Clinical-Trial-Webinar-w-Mark-Jan-18-2023.pdf
+
+Video https://vimeo.com/792662297
+
+Replica knowledge base https://replica-analytics.com/knowledge-base/?utm_content=bufferff63a&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer#webinars
+
+medical images https://arxiv.org/abs/2106.13199
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0280316
+
+### 2011 UK Census Coverage Survey
+
+#### Variance estimation
+
+Baillie, M., Brown, J., Taylor, A. and Abbott, O. (2010) An evaluation of Bootstrapping for Variance Estimation. Internal Report. Available on request.
+
+#### Record linkage 
+
+https://www.ine.es/e/essnetdi_ws2011/ppts/Heasman.pdf
+
+
+
