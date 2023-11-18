@@ -8,4 +8,6 @@ image: https://stratosida.github.io/regression-regrets/Bact_univar_files/figure-
 draft: false
 ---
 
+[Paper under review](https://doi.org/10.21203/rs.3.rs-3580334/v1)
+
 The focus of this [report](https://stratosida.github.io/regression-regrets/) is to provide guidance on conducting initial data analysis in a reproducible manner in the context of intended regression analyses

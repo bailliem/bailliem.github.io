@@ -7,60 +7,33 @@ search: false
 sidebar_position: 1
 #about:
 #  template: trestles
+listing: 
+  - id: project-listings
+    contents: data/projects.yml
+    type: table #grid
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    fields: 
+    - project
+    - description
+    - role
+    - other
+    field-links:
+    - project
+    field-display-names:
+      project: Project
+      description: Description
+      role: Role
+      other: "Other References"
 ---
 
-Below is a collection of projects I have involved with. 
+Below is a collection of projects with publicly visible deliverables I have involved with.
 
-### Graphics principles 
+## projects
+  
+Below are the projects I've been involved in: 
 
-Some text and links
-
-### EVC
-
-Some text and links
-
-### ARDs
-
-Some text and links
-
-### visR
-
-Some text and links
-
-### ggsurvfit 
-
-Some text and links
-
-### DMCs
-
-Some text and links
-
-### Good data science practice 
-
-Some text and links
-
-### Synthetic data 
-
-Some text and links
-
-Slides http://replica-analytics.com/wp-content/uploads/2023/02/Clinical-Trial-Webinar-w-Mark-Jan-18-2023.pdf
-
-Video https://vimeo.com/792662297
-
-Replica knowledge base https://replica-analytics.com/knowledge-base/?utm_content=bufferff63a&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer#webinars
-
-medical images https://arxiv.org/abs/2106.13199
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0280316
-
-### 2011 UK Census Coverage Survey
-
-#### Variance estimation
-
-Baillie, M., Brown, J., Taylor, A. and Abbott, O. (2010) An evaluation of Bootstrapping for Variance Estimation. Internal Report. Available on request.
-
-#### Record linkage 
-
-https://www.ine.es/e/essnetdi_ws2011/ppts/Heasman.pdf
-
-
+::: {#project-listings}
+:::
 
