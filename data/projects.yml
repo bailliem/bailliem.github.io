@@ -1,0 +1,15 @@
+- project: "effective visual communication (EVC)"
+  path: http://graphicsprinciples.github.io
+  role: co-creator
+  other: "[Blog](https://blog.rstudio.com/2020/04/16/effective-visualizations-for-credible-data-driven-decision-making/), [Talk](https://resources.rstudio.com/webinars/effective-visualizations-for-data-driven-decisions)"
+  description: |
+    Effective visual communication for quantitative scientists.
+
+- project: "good graphical principles"
+  path: http://graphicsprinciples.github.io
+  role: co-creator
+  other: "[Cheatsheet](https://graphicsprinciples.github.io/cheatsheet.html)"
+  description: |
+    Good graphical principles.
+
+
