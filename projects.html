@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -60,7 +62,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-project-listings .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-description','listing-role','listing-other',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-project-sort'] }],
+      
+      searchColumns: ["listing-project","listing-path","listing-role","listing-other","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-project-listings'] = new List('listing-project-listings', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -121,15 +154,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#graphics-principles" id="toc-graphics-principles" class="nav-link active" data-scroll-target="#graphics-principles">Graphics principles</a></li>
-  <li><a href="#evc" id="toc-evc" class="nav-link" data-scroll-target="#evc">EVC</a></li>
-  <li><a href="#ards" id="toc-ards" class="nav-link" data-scroll-target="#ards">ARDs</a></li>
-  <li><a href="#visr" id="toc-visr" class="nav-link" data-scroll-target="#visr">visR</a></li>
-  <li><a href="#ggsurvfit" id="toc-ggsurvfit" class="nav-link" data-scroll-target="#ggsurvfit">ggsurvfit</a></li>
-  <li><a href="#dmcs" id="toc-dmcs" class="nav-link" data-scroll-target="#dmcs">DMCs</a></li>
-  <li><a href="#good-data-science-practice" id="toc-good-data-science-practice" class="nav-link" data-scroll-target="#good-data-science-practice">Good data science practice</a></li>
-  <li><a href="#synthetic-data" id="toc-synthetic-data" class="nav-link" data-scroll-target="#synthetic-data">Synthetic data</a></li>
-  <li><a href="#uk-census-coverage-survey" id="toc-uk-census-coverage-survey" class="nav-link" data-scroll-target="#uk-census-coverage-survey">2011 UK Census Coverage Survey</a></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">projects</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/bailliem.github.io/edit/main/projects.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/bailliem.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -158,55 +183,68 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Below is a collection of projects I have involved with.</p>
-<section id="graphics-principles" class="level3">
-<h3 class="anchored" data-anchor-id="graphics-principles">Graphics principles</h3>
-<p>Some text and links</p>
-</section>
-<section id="evc" class="level3">
-<h3 class="anchored" data-anchor-id="evc">EVC</h3>
-<p>Some text and links</p>
-</section>
-<section id="ards" class="level3">
-<h3 class="anchored" data-anchor-id="ards">ARDs</h3>
-<p>Some text and links</p>
-</section>
-<section id="visr" class="level3">
-<h3 class="anchored" data-anchor-id="visr">visR</h3>
-<p>Some text and links</p>
-</section>
-<section id="ggsurvfit" class="level3">
-<h3 class="anchored" data-anchor-id="ggsurvfit">ggsurvfit</h3>
-<p>Some text and links</p>
-</section>
-<section id="dmcs" class="level3">
-<h3 class="anchored" data-anchor-id="dmcs">DMCs</h3>
-<p>Some text and links</p>
-</section>
-<section id="good-data-science-practice" class="level3">
-<h3 class="anchored" data-anchor-id="good-data-science-practice">Good data science practice</h3>
-<p>Some text and links</p>
-</section>
-<section id="synthetic-data" class="level3">
-<h3 class="anchored" data-anchor-id="synthetic-data">Synthetic data</h3>
-<p>Some text and links</p>
-<p>Slides http://replica-analytics.com/wp-content/uploads/2023/02/Clinical-Trial-Webinar-w-Mark-Jan-18-2023.pdf</p>
-<p>Video https://vimeo.com/792662297</p>
-<p>Replica knowledge base https://replica-analytics.com/knowledge-base/?utm_content=bufferff63a&amp;utm_medium=social&amp;utm_source=linkedin.com&amp;utm_campaign=buffer#webinars</p>
-<p>medical images https://arxiv.org/abs/2106.13199 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0280316</p>
-</section>
-<section id="uk-census-coverage-survey" class="level3">
-<h3 class="anchored" data-anchor-id="uk-census-coverage-survey">2011 UK Census Coverage Survey</h3>
-<section id="variance-estimation" class="level4">
-<h4 class="anchored" data-anchor-id="variance-estimation">Variance estimation</h4>
-<p>Baillie, M., Brown, J., Taylor, A. and Abbott, O. (2010) An evaluation of Bootstrapping for Variance Estimation. Internal Report. Available on request.</p>
-</section>
-<section id="record-linkage" class="level4">
-<h4 class="anchored" data-anchor-id="record-linkage">Record linkage</h4>
-<p>https://www.ine.es/e/essnetdi_ws2011/ppts/Heasman.pdf</p>
+<p>Below is a collection of projects with publicly visible deliverables I have involved with.</p>
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects">projects</h2>
+<p>Below are the projects I’ve been involved in:</p>
+<div id="listing-project-listings" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Project
+</th>
+<th>
+Description
+</th>
+<th>
+Role
+</th>
+<th>
+Other References
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-project-sort="effective visual communication (EVC)">
+<td>
+<a href="http://graphicsprinciples.github.io" class="project listing-project">effective visual communication (EVC)</a>
+</td>
+<td>
+<span class="listing-description">Effective visual communication for quantitative scientists. </span>
+</td>
+<td>
+<span class="listing-role">co-creator</span>
+</td>
+<td>
+<span class="listing-other"><a href="https://blog.rstudio.com/2020/04/16/effective-visualizations-for-credible-data-driven-decision-making/">Blog</a>, <a href="https://resources.rstudio.com/webinars/effective-visualizations-for-data-driven-decisions">Talk</a></span>
+</td>
+</tr>
+<tr data-index="1" data-listing-project-sort="good graphical principles">
+<td>
+<a href="http://graphicsprinciples.github.io" class="project listing-project">good graphical principles</a>
+</td>
+<td>
+<span class="listing-description">Good graphical principles. </span>
+</td>
+<td>
+<span class="listing-role">co-creator</span>
+</td>
+<td>
+<span class="listing-other"><a href="https://graphicsprinciples.github.io/cheatsheet.html">Cheatsheet</a></span>
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
-</section>
+
 </section>
 
 </main> <!-- /main -->
