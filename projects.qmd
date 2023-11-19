@@ -1,6 +1,6 @@
 ---
-title: "WIP: projects"
-description: "A collection of projects"
+title: "Projects and other materials"
+description: "A collection of projects and other activites I have been involved with including publicly visible materials."
 image: profile1.jpg
 toc: true
 search: false
@@ -28,12 +28,9 @@ listing:
       other: "Other References"
 ---
 
-Below is a collection of projects with publicly visible deliverables I have involved with.
 
 ## projects
   
-Below are the projects I've been involved in: 
-
 ::: {#project-listings}
 :::
 
