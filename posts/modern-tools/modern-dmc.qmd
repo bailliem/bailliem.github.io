@@ -1,0 +1,896 @@
+---
+title: "Don't we just need to have more visualisations?"
+description: |
+  Unfiltered and to be processed notes supporting the writing of the [21st century DMC paper](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07290-4) 
+date: 10-15-2023
+categories: [dmc, notes, modern tools, data viz, hci]
+image: https://imgs.xkcd.com/comics/modern_tools_2x.png
+draft: false
+---
+
+
+## Display data to answer questions
+
+In 1945, Vanveer Bush ([Bush, 1945](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)) wrote the visionary article \"As we may think\". In it he described the Memex; a futuristic system for navigating, recognizing patterns, sensemaking, drawing new connections and discoveries from disparate information sources. His vision of the Memex system was one that would enhance scientific and technical work through the linking and connecting information to support the tasks of navigation and sensemaking. In essence, a tool for addressing \"information overload\".
+
+Bush spells out the challenges with too much information (the forest) and the need to devise efficient mechanisms to control and channel information for effective use (to see the trees). The essay is a comment on the importance of managing information to support tasks for answering questions, using the metaphor of an "information explosion" arising from the unprecedented demands on scientific production and technological application during World War II. In effect, Bush outlined the discipline of information science; the practice of scientific and technical knowledge management.
+
+The essay influenced new advances such as digitisation of information (digital documents), hyperlinked networks of information (i.e. internet and world wide web), personal computers, computer filing systems, human computer interaction, visual displays, and so on.
+
+The problems of information overload, or information explosion, are the same problems we witness in the context of clinical data review and sensemaking that a DMC is tasked with, or teams that have to review clinical study reports and submission dossiers,
+
+Quoting (Wildfire et al, 2018) \"sheer volume of data reported threatens to lose clinically relevant signals\".
+
+Quoting (Muetze and Friede, 2020) \"The graphical and interactive visualization of data may ease the exploration of the data and enhance the readers\' understanding of the data \[..\]. DMC reports are no exception to this.\"
+
+Quoting (Buhr et al.): \"Many ISRGs include so much information in so disorganized a manner that the IDMC is overwhelmed with unnecessary and irrelevant detail; even well-organized minutiae can jeopardize comprehensibility if high-level summaries are lacking. The IDMC report must facilitate efficient review of comprehensive data through a well-designed report structure and thoughtful organization of analyses.\"
+
+Now, in the year 2020, we are proposing that the critical function of DSMB (as standard), provide comprehensive digital visual displays of linked quantitative information supported by intuitive (human-computer) interaction (search, query, browse, select, link, compare) to facilitate navigation and sensemaking of vital information to answer key questions. Any standalone pre-defined report will need to be supplemented as not all questions will be known in advance, and only emerge during the review process. Future reports and/or systems should be designed for this key information seeking task.
+
+Are we asking for too much?
+
+To answer this question, we take a closer examination of what is possible now, with a specific focus on what advances in statistics, visual analytics, information science, HCI can be used to support the aims of a DMC (to identify any potential safety signals under \[time, information, uncertainty, etc.\] constraints) and within that task, how visual displays can be defined to answer questions to support that overall aim.
+
+### More visual displays to answer questions with data?
+
+The use of appropriate statistical graphics is essential, from formulating the research question, initial data analysis, execution of the analysis plan, through to communicating results, recommendations and conclusions. We must not only \"get the question right\" (understand contextual subject matter) and \"get the methods right\" (technical expertise) but also \"get the message right (clear reporting).\" This is a core competency for all quantitative work.
+
+A lot of ground has been covered on this theme from Tukey, Tufte and Cleveland, [Harrell](https://hbiostat.org/doc/graphscourse.pdf), collaborative initiatives such as CTSpedia (https://www.ctspedia.org/do/view/CTSpedia) and PSI SIG VIS (https://www.psiweb.org/sigs-special-interest-groups/visualisation) to guidelines and recommendations \[Vickers et al, 2020\] and \[Pocock et al 2006?, Morris et al. 2019\], through to flexible tools to support statistical graphics (https://ggplot2.tidyverse.org/). However, traditional university and professional training curricula have not placed a lot of focus on effective application \[Doumont\]. Many researchers have to learn on the job through trial and error. This often leads to poor practice \[Gordon and Finch\] or the avoidance of graphics \[Gelman et al.\].
+
+Why is this important? The role of visual displays are to ensure that relevant information (concepts, assumptions, patterns, trends, signals, and conclusions) are clearly presented and easy to interpret \[Chatfield, 2002\]. For this, we must understand the laws and principles of effective visual communication, such as the grammar of a (visual) language \[Wilkinson\]. Visualisation is more than "plotting data"; it can lead to a deeper understanding and inform next steps.
+
+Using a single example to demonstrate that often the use of appropriate graphics is one of knowledge translation and assimilation, we focus on the bar charts; a commonly used graph type in medical research. Numerous articles have both demonstrated the pitfalls of using bar charts (and their extension the dynamite chart) \[Clelevand, Heer, Tufte, Harrell, [Vickers](https://bjui-journals.onlinelibrary.wiley.com/doi/epdf/10.1111/bju.15102), [Weissgerber](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128), Vandermulebrucke\], in one instance leading to a policy restricting the use of dynamite charts \[<http://biostat.mc.vanderbilt.edu/wiki/Main/StatisticalPolicy>\]. More appropriate alternatives have been advocated such as the dot plot (Clelevand, Heer, Tufte, Harrell, Wessenberger, [Vandemeulebroucke 2019](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12455)...). The bars often take up real estate within a chart without conveying useful information. This can also introduce clutter, hide data and sample size information, make it difficult to introduce measures of uncertainty, and also draws the eye towards false baselines. Cleveland and McGill, and follow up studies such as Heer et al. have also empirically demonstrated that dot plots are more precise for specific visual analytic tasks. [Weissgerber ](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)(2015) has also demonstrated the issues from a reproducibility perspective. However, in spite of this available knowledge, the translation into standard practice has not always been achieved, with the use of barcharts and dynamite plots amongst other issues are still common ([Weissgerber](https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.118.037777), 2019).
+
+### Tools to answer questions with data
+
+The influence of the Memex can be seen in the development of computerised systems to support (exploratory) data analysis. An incomplete timeline of statistical graphics to support exploratory data analysis have existed for a while and continuously are being improved and extended.
+
+-   In 1973 the PRIM-9 system available (Tukey at al. 1973 - <http://stat-graphics.org/movies/prim9.html>),
+
+-   1983 Becker et al. introduced SPLOM (Becker et al.) an approach to display a matrix of scatter plots to display multivariate relationships between various measurements,
+
+-   1999 Ggobi (Swayne et al. 1999),
+
+-   MANET and Mondrian,
+
+-   Statistical programming language such as S (Chambers et al) and the follow on R (Iha)
+
+-   Corporate solutions such as SAS, Stata, etc.
+
+```{=html}
+<!-- -->
+```
+-   Modern point and click graphical tools such as Spotfire, Tableau, Qlik
+
+-   Web based applications such as Shiny to develop, bespoke, ad hoc point and click solutions
+
+-   Reproducible notebooks and documents such as R markdown , Jupyter
+
+Outside of statistics and data analysis tools, we have at our disposal other technologies.
+
+-   Standard digital document readers such as Adobe Acrobat which have options to search (for keywords) and browse across table contents, pages, page numbering, etc.
+
+-   PDF digital documents can have hyperlinks to internal and external references.
+
+-   We also have interactive documentation formats such as html, markdown, bookdown, javascript, which further facilitate interaction.
+
+-   Javascript libraries such as D3.js, React.js, etc.
+
+-   We have convenient javascript wrappers to simplify the development of web based applications like shiny and plotly.
+
+### What is the problem? Today's Solutions, Tomorrow's Problems?
+
+As stated, the problem it seems is not just one of introducing better structured reports or more visual displays. It is also not one of tool availability. It is also not the availability of literature and knowledge on information seeking, visual analytics and effective statistical graphics; see the following comprehensive reviews and overviews in these disciplines (Munzer 2014, Hullman 2019, Vanderplas, Cook and Hofmann 2020 ........).
+
+There is an element of knowledge translation and assimilation. But we should also be mindful that more interactivity and more visuals today may become tomorrow's problem. Introducing interactivity and more visual displays thoughtlessly will not be a panacea. On the perils of interaction, as Wang et al. highlight: \"We have observed some visual designers getting carried away with packages that contain many interactivities and features, which left reviewers overwhelmed\". And on the quality of visual display quality, we refer to Gordon and Finch (2014): \"Statistician heal thyself: have we lost the plot?\", for an empirical assessment on the quality of visual displays in scientific journals.
+
+A recent set of papers highlight the crux of the problem and point to a future direction. Focusing on clinical data review, we also have numerous examples of this applied in practice, especially on the focus of clinical safety data review (Wang et al. 2020a, Wang et al. 2020b, Wildfire 2018, Muetze and Friede, 2020).
+
+Wang et al. 2020a outline how interactive visual displays could support safety review. Safety reviews are iterative switching from overview to details. Wildfire et al. 2018 present an overview of a safety explorer suite. This is a collection of tools for the review of clinical trial safety developed in javascript (www.javascript.com) based visualisation libraries such as D3.js (Bostock et al., 2011).
+
+This collection of papers utilize interactive data visualisation tools or interactive reports designed for this **purpose (safety review)**. The modules contain a mixture of interactive functionality such as selecting, filtering, sorting and linking. Extending the work of Wildfire, Muetze 2020 described how this interactive suite of tools could supplement safety review for a COVID DMC.
+
+These publications show promise, but what is going on here beyond more visual displays and introducing interactivity? What is going on is an implicit recognition that the task of the DMC is one of a collaborative, question and answer, information seeking, pattern identification / recognition and dialogue to identify emerging safety signals. They are applied examples of the information seeking mantra in action (Shneiderman, (1996) \"Overview first, zoom and filter, then details-on-demand\".
+
+### The purpose and task of a DMC
+
+The DMC requires both a report (overview) and flexibility (zoom and filter, then details on demand) to further navigate available data (information). That is, there is an implicit recognition that the task at hand is not supported completely by a static, pre-specified report that standard DMC reports were designed for. Further clues can be found in the literature such as Bohr, with appeals for teams to be flexible, reports to evolve over the course of a study, for all data to be available, but to balance \"information overload\".
+
+From Buhr: \"Effective and efficient responsiveness to IDMC reporting needs is best addressed by an ISRG that combines expertise in statistics and programming, collaborates with sponsor and IDMC clinicians to develop an adequate clinical understanding of the trial, and maintains **flexibility** to modify the IDMC report content on an ongoing basis to **respond to requests from the IDMC as they arise**.\"
+
+As Wang et al, 2020b, state - the design process should \"puting end-user needs first\".
+
+Therefore, what we need are solutions that reflect this task. The **purpose** (why) to ensure there are no emerging safety signals, to exhaustively explore the available data to ensure no signals exist, and to provide recommendations on next actions (to carry on, to stop, to adapt, etc.) i.e. the **task**. A **successful** DMC (the **users**) review can then be measured by whether the team has confidently made an informed decision that a signal(s) exists or not by addressing a series of predefined or ad-hoc **questions**. That no signals have been missed or overlooked. Task **success** can be evaluated by how teams navigate information, fostering collaboration with DMC members to arrive at a common understanding.
+
+This revelation gets to the heart of the problem; that is, DMC reports are not designed to support the task of the DMC. The roles of the DMC are both as reviewers and detectives. The report should help the DMC answer the main questions to understand if there are emerging safety signals. Questions such as:
+
+-   Is there an imbalance?
+-   Was it already there at baseline?
+-   Does it show meaningful relations across parameters/domains?
+
+Often the review generates more questions that have not been captured in the report (Buhr et al. ). In other words, the report is not designed to follow the workflow of the reviewers (the DMC members) within the closed session.
+
+DMC reports and the data displayed within are not designed to answer the questions the DMC may ask, those of signal detection. Standard DMC reports are often designed to display how data was collected and organized in the database. This is irrelevant to the DMC.
+
+Often displays are picked from the statistical analysis plan (SAP) tables, listings and figures (TFLs) which are geared toward a different purpose (if at all). In addition, the format and aesthetics are often not pleasing (ugly and/or not enough figures, poorly designed tables, etc). To compound the problems faced by DMC reviewers further, reports may not be structured, may not have a table of contents, outputs may have obscure identifiers such as T001.rtf, pages may not be numbered, etc (see Wittes, Buhr, etc. for further details).
+
+
+The purpose of a DMC report is different to that of a clinical study report. As common place, DMC reports however follow a minimal structure which mimics that of an abbreviated clinical study report appendix. Disposition, demographics, safety (AEs, labs, commends, etc.). TLFs of descriptive statistics by domain and measurement dominate sprinkled potentially with some graphics. Depending on the study design, tables may cover many pages, treatment arms may also paginate across many pages. Therefore the detective work becomes more challenging, as comparisons have to be made across pages both for timepoints, parameters, and possibly treatment comparisons.
+
+A clinical study report is designed to provide a comprehensive overview of the final completed study. A DMC report is also different from the array of regulatory documents for a dossier to demonstrate efficacy and safety for a regulatory filing. The purpose of the CSR or dossier is to provide a complete, accurate and transparent summary of the compound and study. The study will typically be complete, the data cleaned, and sufficient analysis by the study team familiar with the study is complete.
+
+Alternatively for the DMC, the study is ongoing, often the data is a mixture of cleaned and uncleaned at the time of the DMC. A data cut will occur to clean data as far as possible, but to ensure the latest information is available, often additional data that has not gone through a cleaning process could be included.
+
+Also, throughout the lifecycle of the DMC, new data is added for each DMC. More information is added for each meeting. This aspect is also important for identifying emerging trends.
+
+To go back to the purpose of the DMC report, it is for the detection and identification of emerging safety throughout the lifecycle of a study. The report should facilitate this detective work.
+
+Therefore, by putting the user, the DMC, at the heart of the design, what could an intuitive, interactive, fit for purpose dmc report look like? What components and parts exist now, and what do we need to develop?
+
+
+
+## Towards more useful data displays for DMCs
+
+As argued in the previous section, the purpose of the DMC report is facilitating pattern recognition and identification. The detection of patterns are driven by answering specific questions; questions that look at the study as a whole and then drill down to specifics.
+
+What is possible now? In this section we argue with a change in perspective, a lot can be achieved with the tools and knowledge available to us.
+
+Also, we want to avoid the issue of novelty. Focusing solely on **novelty** is not a guaranteed sign of progress. It can be argued that by doing something new, anything, to fix a problem, can lead to the problems of tomorrow. We want to be mindful of this, therefore careful design and evaluation of new proposals and solutions would be required.
+
+Data quality, content selection, report structure, visual displays and interactivity, should follow the principles of good design, interactivity, human computer interaction, statistical graphical and visual information/analytics. A follow on principle is based in ethics. That is personnel should be qualified with appropriate knowledge, skill and experience to design, develop and implement any solutions.
+
+This relates to the principal of do no harm, or as Andrew Vickers sharply phrased it:
+
+> "A mistake in the operating room can threaten the life of one patient. A mistake in statistical analysis or interpretation can lead to hundreds of early deaths. So it is perhaps odd that, while we allow a doctor to conduct surgery only after years of training, we give SPSS to almost everyone." A. Vickers
+
+We therefore propose well understood and proven solutions that can be executed by qualified personnel. This may seem like a tall task, but a lot of knowledge, technology and best practice is available as a guide. In the following section we then allude to what could the future look like?
+
+## **Purpose**
+
+As stated, the purpose of the report is to help answer questions. More specifically the purpose of the report is to answer questions to determine if safety signals exist. This is a pattern identification and recognition task. More specifically, this could be defined as an information seeking task (Marti Hearst, Ben Schneiderman, Tamara Munzer, John Tukey, Edward Tufte, etc... ).
+
+At the heart of the task is a report. This is a computer (or printed) based document in the form of words, data, tables, figures and listings. The task of the DMC is to review this document with the **goal** to not to miss any true safety signal. DMC reports are **representations** of clinical study data that are designed to help the DMC carry out tasks more effectively. Implicitly, the DMC act as \"the humans in the loop\" of a wider system including sponsors, CROs, etc, often requiring additional details to adequately complete the task (i.e. additional data and analyses, checks on data quality, additional context, etc.).
+
+
+
+They need the details
+
+-   the DMC may not know exactly what questions to ask in advance
+-   they may need support for ongoing exploratory analysis
+-   they need tools to speed up through human-in-the-loop \"visual\" data analysis
+-   presentation of known results
+-   stepping stone towards automation: refining, trust building
+-   Not to overlook a safety signal, not to under-estimate a signal either.
+-   Balance benefit with risk.
+
+An **evaluation** of a well designed system is one that ensures recall (all signals) but under constraints (precision) such as time and information.
+
+### **Planning**
+
+During the planning and design of the DMC, it is important to capture enough information about the task at hand.
+
+-   How are questions and requirements collected and used to drive the design of the report, and the displays that make up the report?
+-   Are the requirements of the DMC members considered?
+-   Are the technological needs taken into account? Multiple displays, monitors, print outs, supplemental data review systems?
+-   Do the DMC have access to all data, or has a selection been provided (and by whom makes the decision to filter the data).
+-   Is too much data provided in an unstructured way?
+
+This points to typical planning. Start at the beginning - answer the five Ws (and the h).
+
+This will not be a general, one size fits all solutions. As clinical studies vary in design, therefore how we report those studies, will also vary and require different needs. Therefore, the planning aspect is vital to capture and analyse these planning questions.
+
+- Why: safety, efficacy, benefit-risk, etc... (purpose of the DMC)
+- What: evidence is available
+- Who: Who are the reviewers (experience, needs, etc.).
+- Who are the audience and what are their skills ,experience and agility to use new tools.
+    - Skills and experience.
+    - What are their needs?
+    - Who is responsible for what (i.e. driving new technology)?
+- Where: - Virtual, F2F, both. technology available. Capture all constraints.
+- When - timelines, timing of meetings, etc.
+- How:
+
+## Design
+
+At the heart of good design is a clear purpose (why) and vision (what).
+
+It is only from the problem domain that we can ascertain if a layout may be better suited and easier to understand than others. Independently of the subject, the purpose should always be centered on explanation and unveiling, which in turn leads to discovery and insight.
+
+Iteration over the problem and solution spaces.
+
+Design - pen and paper first. don\'t commit to solutions and lay down the tracks that are harder to unpick later.
+
+Visual design may be based on construction rules, design dogma or aesthetics, but all these points are neither necessary nor sufficient criteria for a successful design -- but certainly a good point to start off.
+
+Interactive displays encourage and facilitate exploration through searching, browsing, etc. A good powerpoint presentation is a linear document, a report that is well structured could allow for non-linear digestion. But even standard digital reader tools (Adobe PDF reader) allow browsing, table of contents, hyperlinks, searching, etc. If documents are provided digitally, ensure hyperlinks to allow the reviewer to search and browse across the document, potentially provide high resolution displays (more than one?) so that different parts of the report can be viewed simultaneously. All of these solutions indicate a design choice that can be incorporated into the solution.
+
+Milton Glaser puts it this way: \"... All design basically is a strange combination of the intelligence and the intuition, where the intelligence only takes you so far and than your intuition has to reconcile some of the logic in some peculiar way. ...\"
+
+\"He who is ashamed of asking is afraid of learning\", says a famous Danish proverb. A great quality to anyone doing work in the realm of Information Visualization is to be curious and inquisitive. Every project should start with a question. An inquiry that leads you to discover further insights on the system, and in the process answer questions that weren\'t even there in the beginning. This investigation might arise from a personal quest or the specific needs of a client or audience, but you should always have a defined query to drive your work.
+
+### **Questions**
+
+Good visualisations begin with a question. This could be a question to explore further or to explain, but a question nonetheless. For example, I want to determine if there is an imbalance between treatments for any safety parameters. This is an exploratory question that indicates a search across safety outcomes, comparing incidences or measurements between treatments. This exploration may lead to follow up questions. For example, if a potential imbalance is discovered, the natural question could be, what is driving this, is it treatment or some other characteristic?
+
+\
+
+Good visualisations provide comparisons.
+
+### **Why use visual displays?**
+
+Visual communication is one of the most effective channels for displaying quantitative information, and as with written communication, it is also important to be clear and accurate. Effective visual communication means using the visual channel to deliver the right information or messages clearly and concisely. By following the right graphical principles, we can better understand data, highlight core insights and influence decisions toward appropriate actions. Without it, we can fool ourselves and others and pave the way to wrong conclusions and actions.
+
+\
+
+While numerous literature, guidance and solutions exist how do we put this in practice in an accurate, transparent and reproducible way? This brings us back to the aims of each visual display. The question.
+
+\
+
+Using visual representations of data, we can replace cognition with perception.
+
+### **Why depend on vision?**
+
+The human visual system is high-bandwidth channel to brain
+
+-   overview possible due to background processing
+
+-   subjective experience of seeing everything simultaneously
+
+-   significant processing occurs in parallel and pre-attentively
+
+\
+
+### **Why representations of all the data?**
+
+Summaries \"can\" lose information, details matter
+
+-   confirm expected and find unexpected patterns
+
+-   assess validity of statistical model
+
+\
+
+Move from top level to low level details
+
+\
+
+### **Why statistical graphics?**
+
+-   to help with presentation to a broad audience of varying levels of quantitative knowledge (make complex more understandable)
+
+-   to help with diagnostics and assumption checking - is the model or aggregation (boxplot) hiding something (bi-modal distributions or outliers)
+
+-   exploration - to gain insights and deduce properties and relationships
+
+-   context - to understand issues and gaps in (dirty) data (i.e. missingness patterns, measurement error, etc.). plotting is essential to find, understand and resolve issues and artifacts and errors in data.
+
+### **Why focus on tasks and effectiveness?**
+
+Effectiveness requires match between data/task and representation
+
+-   set of representations is huge
+
+-   many are ineffective mismatch for specific data/task combo
+
+-   increases chance of finding good solutions if you understand full space of possibilities
+
+\
+
+### **What counts as effective?**
+
+-   novel: enable entirely new kinds of analysis
+
+-   faster: speed up existing workflows
+
+\
+
+This goes back to task / purpose - information seeking (exhaustive - recall <https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Recall>), with sufficient precision to management information overload.
+
+\
+
+### **How to validate effectiveness?**
+
+-   many methods, must pick appropriate one for your context
+
+\
+
+## **What resource limitations are we faced with?**
+
+Designers must take into account three very different kinds of resource limitations: those of computers, of humans, and of displays.
+
+\
+
+### **computational limits**
+
+-   processing time
+
+-   system memory
+
+\
+
+### **human limits**
+
+-   human attention and memory
+
+\
+
+### **display limits**
+
+-   pixels are precious resource, the most constrained resource
+
+-   information density: ratio of space used to encode info vs unused whitespace
+
+    -   tradeoff between clutter and wasting space, find sweet spot between dense and sparse
+
+\
+
+### **Principles for encoding data** 
+
+expressiveness principle
+
+-   match channel and data characteristics
+
+effectiveness principle
+
+-   encode most important attributes with highest ranked channels (cleveland and mcgill)
+
+\
+\
+
+### **Why design analyze (problem and solution space)?**
+
+\
+
+What, Why, and How
+
+\
+
+imposes structure on huge design space
+
+-   scaffold to help you think systematically about choices
+
+-   **analyzing existing as stepping stone to designing new**
+
+-   most possibilities ineffective for particular task/data combination
+
+\
+\
+
+Data encoding
+
+-   linking, aggregation, statistics, representations, etc.
+
+-   raw data
+
+-   derived data
+
+-   aggregated data
+
+-   comparisons
+
+-   numbers, colours, shapes, lines, points, areas, position, tilt
+
+    -   Cleveland and Mcgill ranking
+
+\
+
+Task abstraction
+
+-   discover distribution
+
+-   compare trends
+
+-   locate outliers
+
+-   browse topology
+
+\
+
+Actions
+
+-   Analyse
+
+-   Search
+
+-   Query
+
+-   Browse
+
+\
+
+Targets
+
+-   All data
+
+    -   trends
+
+    -   outliers
+
+    -   features
+
+-   Attributes
+
+    -   one outcome vs multivate outcomes
+
+-   Linked data
+
+\
+\
+
+## **Interactivity** 
+
+\
+
+Often interactivity is spoken to describe different concepts: (human computer) interactivity and dynamic (animation) displays. A dynamic output or display is one that uses animated / rotating plots to often visualize high dimensional (continuous) data. When we refer to interactivity, we refer to the process of human-computer interaction. Interactive outputs are referring to outputs that enable human computer interaction to change selections and parameters quickly, or to navigate within and across outputs.
+
+\
+
+Interactive displays encourage and facilitate exploration through searching, browsing, etc. A good powerpoint presentation is a linear document, a report that is well structured could allow for non-linear digestion. But even standard digital reader tools (Adobe PDF reader) allow browsing, table of contents, hyperlinks, searching, etc. If documents are provided digitally, ensure hyperlinks to allow the reviewer to search and browse across the document, potentially provide high resolution displays (more than one?) so that different parts of the report can be viewed simultaneously. All of these solutions indicate a design choice that can be incorporated into the solution.
+
+\
+
+Taken to the extreme a well structured report with improved navigation tools, can facilitate this better. Within outputs /a single page, information can be navigated.
+
+\
+
+With good HCI it is important to have the users in control. The cockpit control metaphor. Important information can be accessed and found (not hidden by poor designs).
+
+\
+
+Here we are not indicating a wholesale transformation from printed reports to advanced interactive systems. Even carefully designed printed reports can become user friendly if we consciously focus on how the user will interact with the document. For example, including a table of contents, page numbers, descriptive titles, references and cross references, context, data sources, etc.
+
+\
+
+Interactivity can be defined as verbs that capture the action with the system:
+
+-   Select
+
+-   Sort
+
+-   Filter
+
+-   Join
+
+-   Display
+
+\
+
+There are numerous elements to interactivity
+
+-   selection (of outcome, parameter, subgroup, patient)
+
+    -   find all patients with event
+
+    -   display all patients with event
+
+    -   only show AEs with 10% incidence rates
+
+-   highlighting
+
+    -   subgroup, patient, outcome, etc.
+
+-   query		
+
+    -   information on objects
+
+-   modification
+
+    -   change parameters and models
+
+-   linking
+
+    -   link between selection and highlighting
+
+\
+
+Principles
+
+-   Importance on making it intuitive for all users.
+
+-   Technology supports and does not get in the way
+
+\
+
+Many ways this could be facilitated now, from the low tech examples
+
+-   basic printed reports could have a table of contents, page numbering, clear output titles and descriptions, and a coherent structure.
+
+-   A DMC meeting could provide more than one monitor to help compare different outputs simultaneously.
+
+-   Even better touchscreen monitors to help with the interaction.
+
+\
+
+### **Interactivity is key**
+
+As defined by Ben Shneiderman, Stuart K. Card and Jock D. Mackinlay, \"Information Visualization is the use of computer-supported, **interactive**, visual representations of abstract data to amplify cognition\". This well-known statement highlights how interactivity is an integral part of the field\'s DNA. Any Information Visualization project should not only facilitate understanding but also the analysis of the data, according to specific use cases and defined goals. By employing interactive techniques, users are able to properly investigate and reshape the layout in order to find appropriate answers to their questions. This capability becomes imperative as the degree of complexity of the portrayed system increases. Visualization should be recognized as a discovery tool.
+
+\
+
+### **A note on data management and interactivity**
+
+Linked data is required to facilitate interactivity across outputs / measurements.
+
+Linking can come in many forms:
+
+-   A hyperlink from a table of contents to a specific output.
+
+-   A hyperlinked cross reference between table and figure
+
+```{=html}
+<!-- -->
+```
+-   Linked summary / aggregated measurements
+
+-   Patient linked to measurements
+
+-   Links between related parameters or different aggregations of the same parameter.
+
+### **A note on interactivity and reproducibility** 
+
+\
+
+Are we computing analyses on the fly, or are we rendering pre-computed analyses, where interactivity is a navigation tool. This has a link to analysis results data sets (the graph principle paper) or LEGEND paper.
+
+From Harrel: Definitely, since I\'m really referring to partial interactivity, e.g. drill down to see more information. And one of our hotshot R developers showed me how to create an RMarkdown html report that has a click box in it that allows the user to view printable static graphs vs. semi-interactive graphs when the statistician has dual code chunks to handle the two tasks (e.g., one chunk calling ggplot and the other calling plotly).
+
+### **Principles for building tools with interactivity** 
+
+-   Leave out any task that humans can do better than computers.
+
+-   Leave out any task that\'s associated with an important skill that would be lost if we allowed computers to do it for us.
+
+-   Leave out any feature that is ineffective.
+
+-   Add features to perform tasks that computers can do better than humans.
+
+-   Add features to perform tasks that humans do not benefit from performing in some important way.
+
+-   Add features that are recognized as useful by skilled data analysts, but only after considering the full range of implications.
+
+-   Never add a feature simply because it can be added or because it would be convenient to add.
+
+-   Never add a feature merely because existing or potential customers ask for it.
+
+-   Never add a feature simply because an executive wants it.
+
+-   Never design a feature in a particular way because it is easier than designing it in a way that works better.
+
+-   Never design a feature that requires human-computer interaction without a clear understanding of the human brain---its strengths and limitations.
+
+-   Never design a feature that that requires human-computer interaction that forces people to think and act like computers.
+
+\
+
+## **Report structure**
+
+The report structure is a mixture of Sponsor guidelines or standards and the influence of the ICH structure for clinical study report. Display by domains.
+
+\
+
+This leads to a natural question, is the purpose of the DMC report a typical report, or should the focus be something else, with a side effect that the data can be captured as a report for prosperity?
+
+\
+
+-   Central graph (one or very few) as start-and-return point(s) (simple overview(s)), \"linked\" to more specific graphs for digging deeper.
+
+1.  Deep and wide, focus and context, detail and summary, trees and forest are all expressions that capture these two fundamental perspectives from which we should view our data if we wish to understand it. Errors are routinely made when we dig into a specific issue and form judgments without understanding it in context. Exploring data from every possible angle provides the context that\'s necessary to understand the details. It keeps us from getting lost among the trees, wandering from one false conclusion to another, fools rushing in and rushing out, never really knowing where we\'ve been.
+
+\
+
+2.  Group vs individual data
+
+3.  Show related data together (multivariate plots; show baseline in context; comprehensive patient profiles; \...)
+
+4.  The role of plots \"vs\" tables \"vs\" listings...
+
+\
+
+### **Structure of an ideal report**
+
+An ideal report and/or system should follow the reviewer\'s workflow in addressing these questions:
+
+-   Start from central overview, then dig back and forth (top-down ↔ bottom-up) into notable points or questions.
+
+-   Especially, oscillating (a) between group level and individual level, (b) between post-treatment and pre-treatment data, and (c) across parameters and domains. \[And potentially (d) between safety and efficacy, for benefit/risk tradeoff?\]
+
+-   Of special interest are \"outliers\", and the assessment of time. E.g., how long did an abnormality persist? Did its timing relate to other abnormalities and/or to treatment, conmeds etc?
+
+-   The report should foster collaboration, facilitate dialogue and discussion, enable detective work, improve understanding, improve communication.
+
+This relates back to the information seeking mantra: \"Overview first, zoom and filter, then details-on-demand\".
+
+\
+\
+
+### **Content** 
+
+The content of the report is typically disposition, demographics and demographics and safety. Efficacy where necessary for benefit-risk assessments.
+
+\
+
+Due to issues around constraints, information overload and trial integrity - not all data is provided (as standard).
+
+\
+
+Open session - treatments are hidden. Closed sessions treatments may be masked.
+
+\
+
+Output types (by domain)
+
+-   Tables
+
+-   Listings
+
+-   Figures
+
+\
+
+Data / outputs
+
+-   Group vs individual data
+
+Current problems
+
+-   These outputs may not be structured.
+
+-   May not have a table of contents.
+
+-   May have obscure identifiers such as T001.rtf, etc.
+
+\
+
+### **Context**
+
+\
+
+Context comes in many forms. Institutional knowledge. Experience. Open session. Benefit risk. Prior knowledge. Previous studies. How to systematic it for improvement.
+
+\
+
+-   Domain knowledge
+
+\
+
+### **Workflow**
+
+\
+
+The workflow could be argued is shared across sponsor, CRO and DMC (adds to the challenge)
+
+\
+
+This division of labour adds to the challenge, and requires trust between different groups, functions, stakeholders, etc.
+
+\
+
+As highlighted by Chatfield, a pragmatic workflow for an analysis could resemble the following
+
+-   Exploring context
+
+-   Collecting necessary data - valid
+
+-   Carrying prelim examination of data
+
+-   Formulating an appropriate model and being willing to revise it
+
+-   Checking predictive accuracy
+
+-   Taking active steps to avoid trouble
+
+-   Communicating results clearly
+
+\
+
+How does such a workflow for EDA (detective work) translate in to this cross function / group / stakeholder task?
+
+\
+\
+
+### **Constraints** 
+
+-   Timebound
+
+-   Cleanliness of data
+
+-   Blinding
+
+-   Resources and skill sets (of DMC, of CRO, of Sponsor)
+
+-   Domain knowledge and experience (of DMC, of CRO, of Sponsor)
+
+-   Hardware - monitors / print outs
+
+-   Security / integrity of data
+
+-   Data availability
+
+-   Data cleanliness
+
+\
+
+## **Statistical graphics** 
+
+\
+
+Plot types
+
+-   Change from baseline; spaghetti plots of abnormals only (to judge time aspect without overcrowding); ...
+
+## **Ethics**
+
+There is an ethical element to patients, to society, etc to get this right.
+
+## **Statistics** 
+
+Aggregate statistics, descriptive statistics, graphics, etc. are all statistical models that come with assumptions. Make this conscious through the design. Displaying a box plot assumes the data is not bimodal. Displaying a bar chart assumes the data is anchored at baseline. Displaying a scatter plot implicit assumes we are looking for an association between Y and X.
+
+The role of statistical significance: none
+
+What types of summaries
+
+What types of comparisons.
+
+## **Data management** 
+
+-   Data models
+
+-   Linking
+
+-   Analysis data models
+
+-   Data structures
+
+```{=html}
+<!-- -->
+```
+-   Data cleaning
+
+\
+
+# **Example case studies**
+
+\
+
+Examples\... \[several different eclectic ones; or one complete worked-through example?\].
+
+# **Discussion**
+
+\
+
+1.  Put infrastructure in place to facilitate the implementation of these recommendations on a more routine basis. This should pay off in the long run. Some say that tapping into traditional \"CSR production infrastructure\" is more efficient. But considering the risks incurred (see above), and the resource wasted by an inconvenienced DMC and their additional / one-off requests, this may not be true.
+
+2.  The opportunity in standardizing things across sponsors / CROs, at least to some extent. Easing the job of the reviewers; resource saving for sponsors.
+
+3.  The role of interactive data displays: Can help a great deal, especially with 3●(ii) above. However, technology alone does not address the core issues -- it can overwhelm the reviewers just like a thousand tables (and even more if they are not tech-savvy). Regardless of the format, data displays must be thoughtfully designed with 3● in mind. \[Should reviewers be guided through the data?\]
+
+4.  For every party there is something to be gained
+
+5.  Ethical argument patient is also a party
+
+6.  21st century technology; gap between what is possibility and what is done
+
+7.  Reproducibility
+
+8.  Everyone is doing their best
+
+\
+
+# **Conclusions**
+
+-   We need to gain insights, not produce material. This applies not only, but also, to DMCs. DMCs do not (should not) \"browse through\", but follow a strategy for solving a specific problem. \... Re-iterate the goals and hopes that drove this paper (as per introduction), as well as key points (design simple displays to answer questions; follow the reviewer\'s workflow). \... This also facilitates the communication between statisticians and clinicians on the DMC \... The benefit of doing this right will be \... Etc\...
+
+# **Unsorted references...** 
+
+\[1\] Vandemeulebroecke M, Baillie M, Margolskee A, Magnusson B. Effective Visual Communication for the Quantitative Scientist. CPT Pharmacometrics Syst Pharmacol. 2019;8(10):705-719. doi:10.1002/psp4.12455
+
+\[2\] Chatfield, C. (2002), Confessions of a pragmatic statistician. Journal of the Royal Statistical Society: Series D (The Statistician), 51: 1-20. doi:10.1111/1467-9884.00294
+
+\[3\] Wilkinson, L. The Grammar of Graphics (Springer, Berlin, Germany, 2005).
+
+\[4\] Tukey, J. Exploratory Data Analysis. (Addison‐Wesley, Reading, MA, 1977).
+
+\[5\] Tufte, E.R. The Visual Display of Quantitative Information (Graphics Press, Cheshire, CT, 1983(2nd ed. 2001)).
+
+\[6\] Cleveland, W.S. The Elements of Graphing Data. (Chapman and Hall, New York, NY, 1985).
+
+\[7\] Guidelines for Reporting of Figures and Tables for Clinical Research in Urology. Vickers, Andrew J. et al. European Urology, Volume 78, Issue 1, 97 - 109
+
+\[8\] Morris TP, Jarvis CI, Cragg W, et alProposals on Kaplan--Meier plots in medical research and a survey of stakeholder views: KMunicate. BMJ Open 2019;9:e030215. doi: 10.1136/bmjopen-2019-030215
+
+\[9\] Doumont, J.‐L. Trees, Maps, and Theorems: Effective Communication for Rational Minds. (Principiae, Brussels, Belgium, 2009).
+
+\[10\] Gordon, I. & Finch, S. Statistician heal thyself: have we lost the plot? J. Comput. Graph. Stat. 24, 1210--1229 (2015).
+
+\[11\] Gelman, A., Pasarica, C. & Dodhia, R. (2002) Let's Practice What We Preach --Turning Tables into Graphs, The American Statistician, 56:2, 121-130, DOI: 10.1198/000313002317572790
+
+\
+\
+
+# **Simple rules** 
+
+\
+
+-   Function over form
+
+-   Well tried and understood over Novelty
+
+-   Each output serves a purpose
+
+-   Linked data, analyses to a coherent landing page.
+
+-   Digital with the ability to print
+
+-   User at heart. Easy to pick up and use.hci
+
+-   Recall and precision
+
+-   Support different modes search, browse hunt and gather.
+
+-   Captures data evolution over time
+
+-   Is auditable and accurate as possible given constraints
+
+-   Uses appropriate fit for purpose statistics mindful of design and point in time . Statistics graphs are models. Listings then figures.
+
+-   Provenance and lineage of data is clear. Issues can be identified.
+
+-   Protect the integrity of trial
+
+-   Synthetic data to develop
+
+-   Standards were possible
+
+-   Reports and systems and processes should foster collaboration.
+
+-   Develop experience levels - inexperienced in dsmbs
+
+-   Think in terms of skills . What do development teams look like
+
+-   Place the importance on this . Good for sponsors, patients , has, cros
+
+-   Add value and refocus incentives within field. Value over improved tools over novel methods
+
+-   Open source and transparency
+
+-   Top down, bottom up, side to side, bread crumbs. System focused. Report generation.
+
+-   Fit for purpose teams to develop. Expertise is hci, stats, domain.
+
+-   One size will not fit all or fit the course of a trial or program.
+
+-   Think mutli study or multi variate , mutli time point. Have a strategy and plan.
+
+-   Declarative Vs procedural. Scripting Vs GUI. Apps may not be flexible enough for all specifics of a study. Developing using r requires expertise to do this as well. Happy balance between what can be standard (templates) and flexibility to deal with edge case.
+
+-   Philosophy of graphs
+
+```{=html}
+<!-- -->
+```
+-   Linked
+
+-   High density
+
+-   Not misleading
+
+-   Aggregate and patient level
+
+-   Support pattern recognition and identification - explore
+
+-   Supportive of the task - to identify signals
+
+-   Recall and precision of information. Recall everything but precise. Avoid information overload.
+
+
+
+## Questions to be resolved 
+
+* How do you view the role of the report?
+* How do you see you and DMC in the role of designing / defining the report?
+* Do you think the standard should be digital (that can be printed hard copy)?
+* Do you think the standard should be hyperlinked (between outputs, with ToC)
+* Need specialist companies with the qualified personal to do this - ISRG (who funds?)
+* With figures comes a higher standard to implement correctly.
+

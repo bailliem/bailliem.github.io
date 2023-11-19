@@ -1,15 +1,45 @@
 - project: "effective visual communication (EVC)"
   path: http://graphicsprinciples.github.io
   role: co-creator
-  other: "[Blog](https://blog.rstudio.com/2020/04/16/effective-visualizations-for-credible-data-driven-decision-making/), [Talk](https://resources.rstudio.com/webinars/effective-visualizations-for-data-driven-decisions)"
+  other: "[blog](https://blog.rstudio.com/2020/04/16/effective-visualizations-for-credible-data-driven-decision-making/), [talk](https://resources.rstudio.com/webinars/effective-visualizations-for-data-driven-decisions)"
   description: |
     Effective visual communication for quantitative scientists.
 
 - project: "good graphical principles"
   path: http://graphicsprinciples.github.io
   role: co-creator
-  other: "[Cheatsheet](https://graphicsprinciples.github.io/cheatsheet.html)"
+  other: "[cheatsheet](https://graphicsprinciples.github.io/cheatsheet.html)"
   description: |
     Good graphical principles.
+
+
+- project: "modern data monitoring committee (DMC) reports"
+  path: https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07290-4
+  role: co-creator
+  other: "[paper](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07290-4), [R code](https://github.com/DMC21cent/DMC21cent)"
+  description: |
+    Proposals to improve the effectiveness of data monitoring committee reports.
+
+
+- project: "analysis results as data"
+  path: https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07290-4
+  role: collaborator
+  other: "[paper](https://www.nature.com/articles/s41597-022-01789-2), [workshop](https://joanacmbarros.github.io/ardm-website/)"
+  description: |
+     Analysis Results Data Model (ARDM), a framework for storing and managing the outputs of data analyses.
+
+- project: "ggsurvfit"
+  path: https://github.com/pharmaverse/ggsurvfit
+  role: contributor
+  other: "[R package](https://www.danieldsjoberg.com/ggsurvfit/), [talk](https://www.youtube.com/watch?v=pwM14W6gFf0), [slides](https://www.danieldsjoberg.com/ggsurvfit-useR-2023/)"
+  description: |
+     The {ggsurvfit} package eases the creation of time-to-event or survival analysis summary figures with {ggplot2}, such as a Kaplan-Meier plot.
+
+- project: "visR"
+  path: https://github.com/openpharma/visR
+  role: co-creator
+  other: "[R package](https://openpharma.github.io/visR/), [blog](https://blog.rstudio.com/2020/04/16/effective-visualizations-for-credible-data-driven-decision-making/), [talk](https://resources.rstudio.com/webinars/effective-visualizations-for-data-driven-decisions)"
+  description: |
+     A cross-industry experiment to develop an open source R package for data visualisation. 
 
 
