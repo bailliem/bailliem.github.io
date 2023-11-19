@@ -10,10 +10,10 @@ sidebar_position: 1
 listing: 
   - id: project-listings
     contents: data/projects.yml
-    type: table #grid
+    type: table #grid #
     sort-ui: false
     filter-ui: false
-    categories: false
+    categories: true #false
     fields: 
     - project
     - description

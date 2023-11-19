@@ -1,9 +1,10 @@
 - project: "effective visual communication (EVC)"
   path: http://graphicsprinciples.github.io
   role: co-creator
-  other: "[blog](https://blog.rstudio.com/2020/04/16/effective-visualizations-for-credible-data-driven-decision-making/), [talk](https://resources.rstudio.com/webinars/effective-visualizations-for-data-driven-decisions)"
+  other: "[psdm2023](https://www.efspi.org/EFSPI/Events/Meeting_Items/PSDM_Meeting_on_Data_Visualisation.aspx), [slides](https://www.efspi.org/documents/events/DataVis_04_Baillie.pdf)"
   description: |
     Effective visual communication for quantitative scientists.
+  categories: [data viz, evc, communication]
 
 
 - project: "good data science practice"
@@ -12,22 +13,23 @@
   other: "[paper](https://www.tandfonline.com/doi/abs/10.1080/19466315.2022.2063172?journalCode=usbr20)"
   description: |
      Ideas around what "good" data science may looks like within drug development, with a focus on [exploratory investigations](https://www.tandfonline.com/doi/full/10.1080/19466315.2022.2128402?src=recsys).
-
+  categories: [gdsp, quality, data science]
 
 - project: "good graphical principles"
   path: http://graphicsprinciples.github.io
   role: co-creator
-  other: "[cheatsheet](https://graphicsprinciples.github.io/cheatsheet.html)"
+  other: "[cheatsheet](https://graphicsprinciples.github.io/cheatsheet.html), [talk](https://www.youtube.com/watch?v=_8JvnsJdCTk&t=888s)"
   description: |
     Good graphical principles.
-
+  categories: [data viz, evc]
+  
 - project: "modern data monitoring committee (DMC) reports"
   path: https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07290-4
   role: co-creator
   other: "[paper](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07290-4), [R code](https://github.com/DMC21cent/DMC21cent)"
   description: |
     Proposals to improve the effectiveness of data monitoring committee reports.
-
+  categories: [evc, dmc]
 
 - project: "analysis results as data"
   path: https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07290-4
@@ -35,13 +37,23 @@
   other: "[paper](https://www.nature.com/articles/s41597-022-01789-2), [workshop](https://joanacmbarros.github.io/ardm-website/)"
   description: |
      Analysis Results Data Model (ARDM), a framework for storing and managing the outputs of data analyses.
-
+  categories: [ards, data engineering, fair]
+  
 - project: "ggsurvfit"
   path: https://github.com/pharmaverse/ggsurvfit
   role: contributor
   other: "[R package](https://www.danieldsjoberg.com/ggsurvfit/), [talk](https://www.youtube.com/watch?v=pwM14W6gFf0), [slides](https://www.danieldsjoberg.com/ggsurvfit-useR-2023/)"
   description: |
      The {ggsurvfit} package eases the creation of time-to-event or survival analysis summary figures with {ggplot2}, such as a Kaplan-Meier plot.
+  categories: [data viz, r package]
+
+- project: "benchmarking AI/ML challenges"
+  path: https://github.com/openpharma/visR
+  role: co-creator
+  other: "[talk](https://www.youtube.com/watch?v=pdTAB-loouc), [bbs2019](https://baselbiometrics.github.io/home/docs/talks/20191101/20191101_summary.html), [slides](https://baselbiometrics.github.io/home/docs/talks/20191101/8_Baillie.pdf)"
+  description: |
+     A proposed framework for evaluating AI/ML from a company perspective: making sense of AI through the common task framework.
+  categories: [data science, common task framework]
 
 - project: "visR"
   path: https://github.com/openpharma/visR
@@ -49,5 +61,4 @@
   other: "[R package](https://openpharma.github.io/visR/), [blog](https://blog.rstudio.com/2020/04/16/effective-visualizations-for-credible-data-driven-decision-making/), [talk](https://resources.rstudio.com/webinars/effective-visualizations-for-data-driven-decisions)"
   description: |
      A cross-industry experiment to develop an open source R package for data visualisation. 
-
-
+  categories: [data viz, r package]
