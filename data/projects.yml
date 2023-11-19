@@ -5,13 +5,21 @@
   description: |
     Effective visual communication for quantitative scientists.
 
+
+- project: "good data science practice"
+  path: https://www.tandfonline.com/doi/abs/10.1080/19466315.2022.2063172?journalCode=usbr20
+  role: author
+  other: "[paper](https://www.tandfonline.com/doi/abs/10.1080/19466315.2022.2063172?journalCode=usbr20)"
+  description: |
+     Ideas around what "good" data science may looks like within drug development, with a focus on [exploratory investigations](https://www.tandfonline.com/doi/full/10.1080/19466315.2022.2128402?src=recsys).
+
+
 - project: "good graphical principles"
   path: http://graphicsprinciples.github.io
   role: co-creator
   other: "[cheatsheet](https://graphicsprinciples.github.io/cheatsheet.html)"
   description: |
     Good graphical principles.
-
 
 - project: "modern data monitoring committee (DMC) reports"
   path: https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07290-4
