@@ -13,7 +13,7 @@ about:
       href: https://github.com/bailliem
     - text: PSI VIS
       href: https://vis-sig.github.io/blog/
-    - text: Graphics principles 
+    - text: graphics principles 
       href: http://graphicsprinciples.github.io/
 
 page-layout: full
