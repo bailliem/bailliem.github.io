@@ -1,0 +1,61 @@
+---
+title: "Analysis plans"
+description: |
+  Rough notes on analysis plans for exploratory investigations 
+date: today
+categories: [sap, ppdac, explore, gdsp]
+image: "https://accessibility.huit.harvard.edu/sites/hwpi.harvard.edu/files/styles/os_files_large/public/online-accessibility-huit/files/symbols-document-conversion_-_docs.png?m=1670263149&itok=OxIL9JXZ"
+draft: false
+---
+
+
+
+## Analysis Plan Guide (Revised Draft)
+
+### Document Goal
+To outline analyses in a way that ensures feasibility, addressing scientific objectives, resource availability, necessary reviews, and realistic timelines. The focus is on secondary analysis of data. 
+
+### Purpose of an Analysis Plan
+An analysis plan is a blueprint for your research journey. It's not just a roadmap; it's a living document that evolves with your project. It helps you:
+
+1. **Organize Thoughts**: Distill broad research questions into actionable steps.
+2. **Facilitate Communication**: Clearly convey your plan to stakeholders for timely feedback.
+3. **Justify Approach**: Explain your analytical choices and adapt as needed.
+4. **Document History**: Record the evolution of your thinking and methods.
+
+### Practical Example:
+*Imagine you're researching the impact of a new drug. Your analysis plan starts broad - you want to see if the drug works. As you delve deeper, you discover specific areas to focus on, like dosage effectiveness and patient age groups. Your plan evolves, documenting these shifts and the reasons behind them.*
+
+### Motivation for Planning
+Moving from high-level goals to concrete tasks, an analysis plan encourages critical thinking and discussion. It's not about rigid pre-specification; it's about guiding your exploration and ensuring you don't miss crucial steps.
+
+### PPDAC Approach: A Problem-Centric Methodology
+1. **Problem**: Define your research question. Keep refining it as new information emerges.
+2. **Plan**: Develop a strategy that aligns with your problem statement.
+3. **Data**: Ensure your data matches your question and chosen methods.
+4. **Analysis**: Use the data to address your problem.
+5. **Conclusion**: Summarize findings in relatable terms and discuss the strengths and weaknesses of your approach.
+
+### Example with PPDAC:
+*In our drug research example, the Problem is determining drug efficacy. The Plan includes trials with varied dosages. Data involves collecting trial results. Analysis involves statistical testing for efficacy. The Conclusion is a clear statement of the drug's effectiveness.*
+
+### Considerations for Your Plan:
+1. **Team Collaboration**: Discuss objectives and methodologies early. Assign roles and tasks for efficient workflow.
+2. **Knowledge Sharing**: Documenting your plan aids in transferring knowledge within your team, especially from senior to junior members.
+3. **Quality Control**: The planning process itself acts as a checkpoint for ensuring research integrity.
+
+### Workflow Management Using Git and GitLab/Github:
+Leverage Git for version control and GitLab for task management. Break down your plan into 'issues' or tasks, each handled in a separate branch. Merge back into the main branch upon completion after peer review.
+
+### Incorporating Risk Management and Ethical Considerations:
+- **Risk Management**: Identify potential risks like data unavailability or methodological limitations and plan mitigations.
+- **Ethical Considerations**: Ensure data privacy and compliance with ethical standards, especially in sensitive projects like clinical trials.
+
+### Evaluation and Reflection:
+Post-analysis, evaluate your approach against set metrics. Reflect on what worked and what could be improved for future projects.
+
+### Conclusion:
+Your analysis plan is more than a set of tasks; it's the backbone of your research project. It guides you, evolves with your project, and ensures you stay on track while maintaining research integrity and effectiveness.
+
+## Appendix
+
