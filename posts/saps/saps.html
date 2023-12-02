@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-12-02">
+<meta name="description" content="Rough notes on analysis plans for exploratory investigations">
+
+<title>Mark Baillie - Analysis plans</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Mark Baillie</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">about</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html" rel="" target="">
+ <span class="menu-text">projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/index.html" rel="" target="">
+ <span class="menu-text">notes</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bailliem" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/bailliem" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Analysis plans</h1>
+                  <div>
+        <div class="description">
+          <p>Rough notes on analysis plans for exploratory investigations</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">sap</div>
+                <div class="quarto-category">ppdac</div>
+                <div class="quarto-category">explore</div>
+                <div class="quarto-category">gdsp</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 2, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#analysis-plan-guide-revised-draft" id="toc-analysis-plan-guide-revised-draft" class="nav-link active" data-scroll-target="#analysis-plan-guide-revised-draft">Analysis Plan Guide (Revised Draft)</a>
+  <ul class="collapse">
+  <li><a href="#document-goal" id="toc-document-goal" class="nav-link" data-scroll-target="#document-goal">Document Goal</a></li>
+  <li><a href="#purpose-of-an-analysis-plan" id="toc-purpose-of-an-analysis-plan" class="nav-link" data-scroll-target="#purpose-of-an-analysis-plan">Purpose of an Analysis Plan</a></li>
+  <li><a href="#practical-example" id="toc-practical-example" class="nav-link" data-scroll-target="#practical-example">Practical Example:</a></li>
+  <li><a href="#motivation-for-planning" id="toc-motivation-for-planning" class="nav-link" data-scroll-target="#motivation-for-planning">Motivation for Planning</a></li>
+  <li><a href="#ppdac-approach-a-problem-centric-methodology" id="toc-ppdac-approach-a-problem-centric-methodology" class="nav-link" data-scroll-target="#ppdac-approach-a-problem-centric-methodology">PPDAC Approach: A Problem-Centric Methodology</a></li>
+  <li><a href="#example-with-ppdac" id="toc-example-with-ppdac" class="nav-link" data-scroll-target="#example-with-ppdac">Example with PPDAC:</a></li>
+  <li><a href="#considerations-for-your-plan" id="toc-considerations-for-your-plan" class="nav-link" data-scroll-target="#considerations-for-your-plan">Considerations for Your Plan:</a></li>
+  <li><a href="#workflow-management-using-git-and-gitlabgithub" id="toc-workflow-management-using-git-and-gitlabgithub" class="nav-link" data-scroll-target="#workflow-management-using-git-and-gitlabgithub">Workflow Management Using Git and GitLab/Github:</a></li>
+  <li><a href="#incorporating-risk-management-and-ethical-considerations" id="toc-incorporating-risk-management-and-ethical-considerations" class="nav-link" data-scroll-target="#incorporating-risk-management-and-ethical-considerations">Incorporating Risk Management and Ethical Considerations:</a></li>
+  <li><a href="#evaluation-and-reflection" id="toc-evaluation-and-reflection" class="nav-link" data-scroll-target="#evaluation-and-reflection">Evaluation and Reflection:</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion:</a></li>
+  </ul></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/bailliem.github.io/edit/main/posts/saps/saps.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/bailliem.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="analysis-plan-guide-revised-draft" class="level2">
+<h2 class="anchored" data-anchor-id="analysis-plan-guide-revised-draft">Analysis Plan Guide (Revised Draft)</h2>
+<section id="document-goal" class="level3">
+<h3 class="anchored" data-anchor-id="document-goal">Document Goal</h3>
+<p>To outline analyses in a way that ensures feasibility, addressing scientific objectives, resource availability, necessary reviews, and realistic timelines. The focus is on secondary analysis of data.</p>
+</section>
+<section id="purpose-of-an-analysis-plan" class="level3">
+<h3 class="anchored" data-anchor-id="purpose-of-an-analysis-plan">Purpose of an Analysis Plan</h3>
+<p>An analysis plan is a blueprint for your research journey. It’s not just a roadmap; it’s a living document that evolves with your project. It helps you:</p>
+<ol type="1">
+<li><strong>Organize Thoughts</strong>: Distill broad research questions into actionable steps.</li>
+<li><strong>Facilitate Communication</strong>: Clearly convey your plan to stakeholders for timely feedback.</li>
+<li><strong>Justify Approach</strong>: Explain your analytical choices and adapt as needed.</li>
+<li><strong>Document History</strong>: Record the evolution of your thinking and methods.</li>
+</ol>
+</section>
+<section id="practical-example" class="level3">
+<h3 class="anchored" data-anchor-id="practical-example">Practical Example:</h3>
+<p><em>Imagine you’re researching the impact of a new drug. Your analysis plan starts broad - you want to see if the drug works. As you delve deeper, you discover specific areas to focus on, like dosage effectiveness and patient age groups. Your plan evolves, documenting these shifts and the reasons behind them.</em></p>
+</section>
+<section id="motivation-for-planning" class="level3">
+<h3 class="anchored" data-anchor-id="motivation-for-planning">Motivation for Planning</h3>
+<p>Moving from high-level goals to concrete tasks, an analysis plan encourages critical thinking and discussion. It’s not about rigid pre-specification; it’s about guiding your exploration and ensuring you don’t miss crucial steps.</p>
+</section>
+<section id="ppdac-approach-a-problem-centric-methodology" class="level3">
+<h3 class="anchored" data-anchor-id="ppdac-approach-a-problem-centric-methodology">PPDAC Approach: A Problem-Centric Methodology</h3>
+<ol type="1">
+<li><strong>Problem</strong>: Define your research question. Keep refining it as new information emerges.</li>
+<li><strong>Plan</strong>: Develop a strategy that aligns with your problem statement.</li>
+<li><strong>Data</strong>: Ensure your data matches your question and chosen methods.</li>
+<li><strong>Analysis</strong>: Use the data to address your problem.</li>
+<li><strong>Conclusion</strong>: Summarize findings in relatable terms and discuss the strengths and weaknesses of your approach.</li>
+</ol>
+</section>
+<section id="example-with-ppdac" class="level3">
+<h3 class="anchored" data-anchor-id="example-with-ppdac">Example with PPDAC:</h3>
+<p><em>In our drug research example, the Problem is determining drug efficacy. The Plan includes trials with varied dosages. Data involves collecting trial results. Analysis involves statistical testing for efficacy. The Conclusion is a clear statement of the drug’s effectiveness.</em></p>
+</section>
+<section id="considerations-for-your-plan" class="level3">
+<h3 class="anchored" data-anchor-id="considerations-for-your-plan">Considerations for Your Plan:</h3>
+<ol type="1">
+<li><strong>Team Collaboration</strong>: Discuss objectives and methodologies early. Assign roles and tasks for efficient workflow.</li>
+<li><strong>Knowledge Sharing</strong>: Documenting your plan aids in transferring knowledge within your team, especially from senior to junior members.</li>
+<li><strong>Quality Control</strong>: The planning process itself acts as a checkpoint for ensuring research integrity.</li>
+</ol>
+</section>
+<section id="workflow-management-using-git-and-gitlabgithub" class="level3">
+<h3 class="anchored" data-anchor-id="workflow-management-using-git-and-gitlabgithub">Workflow Management Using Git and GitLab/Github:</h3>
+<p>Leverage Git for version control and GitLab for task management. Break down your plan into ‘issues’ or tasks, each handled in a separate branch. Merge back into the main branch upon completion after peer review.</p>
+</section>
+<section id="incorporating-risk-management-and-ethical-considerations" class="level3">
+<h3 class="anchored" data-anchor-id="incorporating-risk-management-and-ethical-considerations">Incorporating Risk Management and Ethical Considerations:</h3>
+<ul>
+<li><strong>Risk Management</strong>: Identify potential risks like data unavailability or methodological limitations and plan mitigations.</li>
+<li><strong>Ethical Considerations</strong>: Ensure data privacy and compliance with ethical standards, especially in sensitive projects like clinical trials.</li>
+</ul>
+</section>
+<section id="evaluation-and-reflection" class="level3">
+<h3 class="anchored" data-anchor-id="evaluation-and-reflection">Evaluation and Reflection:</h3>
+<p>Post-analysis, evaluate your approach against set metrics. Reflect on what worked and what could be improved for future projects.</p>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion:</h3>
+<p>Your analysis plan is more than a set of tasks; it’s the backbone of your research project. It guides you, evolves with your project, and ensures you stay on track while maintaining research integrity and effectiveness.</p>
+</section>
+</section>
+<section id="appendix" class="level2">
+<h2 class="anchored" data-anchor-id="appendix">Appendix</h2>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">This page is produced with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/bailliem/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bailliem">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../LICENSE.html">License</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

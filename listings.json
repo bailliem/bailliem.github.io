@@ -6,6 +6,7 @@
   {
     "listing": "/posts/index.html",
     "items": [
+      "/posts/saps/saps.html",
       "/posts/ida-regression/index.html",
       "/posts/modern-tools/modern-dmc.html",
       "/posts/vis-lessons/index.html",

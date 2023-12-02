@@ -7,53 +7,39 @@
     "text": "Statistician working in Pharma."
   },
   {
-    "objectID": "posts/gdsp/gdsp.html",
-    "href": "posts/gdsp/gdsp.html",
-    "title": "Thoughts on exploratory data analysis",
+    "objectID": "posts/saps/saps.html",
+    "href": "posts/saps/saps.html",
+    "title": "Analysis plans",
     "section": "",
-    "text": "Good Data Science Practice: Moving Toward a Code of Practice for Drug Development: Moving Toward a Code of Practice for Drug Development, April 2022. Statistics in Biopharmaceutical Research. DOI:10.1080/19466315.2022.2063172\nThere is growing interest in data science and the challenges that scientists can solve through its application. The growing interest is in part due to the promise of “extracting value from data.” The pharmaceutical industry is no different in this regard reflected by the advancement and excitement surrounding data science. Data science brings new perspectives, new methods, new skill sets and the wider use of new data modalities. For example, there is a belief that extracting value from data integrated from multiple sources and modalities using advances in statistics, machine learning, informatics and computation can answer fundamental questions. These questions span a variety of themes including disease understanding, drug and target discovery, and trial design. By answering fundamental questions, we cannot only increase knowledge and understanding but more importantly inform decision making; accelerating drug development through data-driven prioritization, increasingly precise and accurate measurements, optimized trial designs and operational excellence. However, with the promise of data science, there are obstacles to overcome, especially if data science is to live up to this promise and deliver a positive impact. These obstacles include consensus on the definition of data science, the relationship between data science and existing fields such as statistics and computing science, what should be involved in the day-to-day practices of data science, and what is “good” practice. In this article, we cover these themes, highlighting issues with scientific practice from five perspectives and argue how advances in data science will not be immune, especially exploratory, investigative, and innovative activities. We propose a definition of data science as a coming together but also a refocusing of established disciplines leading to a framework for good practice. In doing so, we aim to begin a dialogue on good data science practice in the context of drug development, where there is no industry view or consensus."
+    "text": "To outline analyses in a way that ensures feasibility, addressing scientific objectives, resource availability, necessary reviews, and realistic timelines. The focus is on secondary analysis of data.\n\n\n\nAn analysis plan is a blueprint for your research journey. It’s not just a roadmap; it’s a living document that evolves with your project. It helps you:\n\nOrganize Thoughts: Distill broad research questions into actionable steps.\nFacilitate Communication: Clearly convey your plan to stakeholders for timely feedback.\nJustify Approach: Explain your analytical choices and adapt as needed.\nDocument History: Record the evolution of your thinking and methods.\n\n\n\n\nImagine you’re researching the impact of a new drug. Your analysis plan starts broad - you want to see if the drug works. As you delve deeper, you discover specific areas to focus on, like dosage effectiveness and patient age groups. Your plan evolves, documenting these shifts and the reasons behind them.\n\n\n\nMoving from high-level goals to concrete tasks, an analysis plan encourages critical thinking and discussion. It’s not about rigid pre-specification; it’s about guiding your exploration and ensuring you don’t miss crucial steps.\n\n\n\n\nProblem: Define your research question. Keep refining it as new information emerges.\nPlan: Develop a strategy that aligns with your problem statement.\nData: Ensure your data matches your question and chosen methods.\nAnalysis: Use the data to address your problem.\nConclusion: Summarize findings in relatable terms and discuss the strengths and weaknesses of your approach.\n\n\n\n\nIn our drug research example, the Problem is determining drug efficacy. The Plan includes trials with varied dosages. Data involves collecting trial results. Analysis involves statistical testing for efficacy. The Conclusion is a clear statement of the drug’s effectiveness.\n\n\n\n\nTeam Collaboration: Discuss objectives and methodologies early. Assign roles and tasks for efficient workflow.\nKnowledge Sharing: Documenting your plan aids in transferring knowledge within your team, especially from senior to junior members.\nQuality Control: The planning process itself acts as a checkpoint for ensuring research integrity.\n\n\n\n\nLeverage Git for version control and GitLab for task management. Break down your plan into ‘issues’ or tasks, each handled in a separate branch. Merge back into the main branch upon completion after peer review.\n\n\n\n\nRisk Management: Identify potential risks like data unavailability or methodological limitations and plan mitigations.\nEthical Considerations: Ensure data privacy and compliance with ethical standards, especially in sensitive projects like clinical trials.\n\n\n\n\nPost-analysis, evaluate your approach against set metrics. Reflect on what worked and what could be improved for future projects.\n\n\n\nYour analysis plan is more than a set of tasks; it’s the backbone of your research project. It guides you, evolves with your project, and ensures you stay on track while maintaining research integrity and effectiveness."
   },
   {
-    "objectID": "posts/ida-regression/index.html",
-    "href": "posts/ida-regression/index.html",
-    "title": "IDA for regression",
+    "objectID": "posts/saps/saps.html#analysis-plan-guide-revised-draft",
+    "href": "posts/saps/saps.html#analysis-plan-guide-revised-draft",
+    "title": "Analysis plans",
     "section": "",
-    "text": "Paper under review\nThe focus of this report is to provide guidance on conducting initial data analysis in a reproducible manner in the context of intended regression analyses"
+    "text": "To outline analyses in a way that ensures feasibility, addressing scientific objectives, resource availability, necessary reviews, and realistic timelines. The focus is on secondary analysis of data.\n\n\n\nAn analysis plan is a blueprint for your research journey. It’s not just a roadmap; it’s a living document that evolves with your project. It helps you:\n\nOrganize Thoughts: Distill broad research questions into actionable steps.\nFacilitate Communication: Clearly convey your plan to stakeholders for timely feedback.\nJustify Approach: Explain your analytical choices and adapt as needed.\nDocument History: Record the evolution of your thinking and methods.\n\n\n\n\nImagine you’re researching the impact of a new drug. Your analysis plan starts broad - you want to see if the drug works. As you delve deeper, you discover specific areas to focus on, like dosage effectiveness and patient age groups. Your plan evolves, documenting these shifts and the reasons behind them.\n\n\n\nMoving from high-level goals to concrete tasks, an analysis plan encourages critical thinking and discussion. It’s not about rigid pre-specification; it’s about guiding your exploration and ensuring you don’t miss crucial steps.\n\n\n\n\nProblem: Define your research question. Keep refining it as new information emerges.\nPlan: Develop a strategy that aligns with your problem statement.\nData: Ensure your data matches your question and chosen methods.\nAnalysis: Use the data to address your problem.\nConclusion: Summarize findings in relatable terms and discuss the strengths and weaknesses of your approach.\n\n\n\n\nIn our drug research example, the Problem is determining drug efficacy. The Plan includes trials with varied dosages. Data involves collecting trial results. Analysis involves statistical testing for efficacy. The Conclusion is a clear statement of the drug’s effectiveness.\n\n\n\n\nTeam Collaboration: Discuss objectives and methodologies early. Assign roles and tasks for efficient workflow.\nKnowledge Sharing: Documenting your plan aids in transferring knowledge within your team, especially from senior to junior members.\nQuality Control: The planning process itself acts as a checkpoint for ensuring research integrity.\n\n\n\n\nLeverage Git for version control and GitLab for task management. Break down your plan into ‘issues’ or tasks, each handled in a separate branch. Merge back into the main branch upon completion after peer review.\n\n\n\n\nRisk Management: Identify potential risks like data unavailability or methodological limitations and plan mitigations.\nEthical Considerations: Ensure data privacy and compliance with ethical standards, especially in sensitive projects like clinical trials.\n\n\n\n\nPost-analysis, evaluate your approach against set metrics. Reflect on what worked and what could be improved for future projects.\n\n\n\nYour analysis plan is more than a set of tasks; it’s the backbone of your research project. It guides you, evolves with your project, and ensures you stay on track while maintaining research integrity and effectiveness."
   },
   {
-    "objectID": "posts/ards/ards.html",
-    "href": "posts/ards/ards.html",
-    "title": "Analysis results data sets",
-    "section": "",
-    "text": "Barros, J.M., Widmer, L.A., Baillie, M. et al. Rethinking clinical study data: why we should respect analysis results as data. Sci Data 9, 686 (2022). https://doi.org/10.1038/s41597-022-01789-2"
+    "objectID": "posts/saps/saps.html#appendix",
+    "href": "posts/saps/saps.html#appendix",
+    "title": "Analysis plans",
+    "section": "Appendix",
+    "text": "Appendix"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Mark Baillie",
+    "objectID": "posts/vis-lessons/index.html",
+    "href": "posts/vis-lessons/index.html",
+    "title": "Lessons from a company wide data visualization initiative",
     "section": "",
-    "text": "Mark Baillie is a member of the Advanced Methodology and Data Science group at Novartis. He focuses on methodology to support drug development, working on a variety of internal and external initiatives to improve the reporting of clinical trials. These include effective visual communication, initial data analysis, DMC reporting, analysis results standards, and data challenges. Mark is a member of the Stratos initiative and the PSI visualisation special interest group."
+    "text": "meeting overview\nflyer\nslides"
   },
   {
-    "objectID": "about.html#bio",
-    "href": "about.html#bio",
-    "title": "Mark Baillie",
+    "objectID": "posts/caps/caps.html",
+    "href": "posts/caps/caps.html",
+    "title": "Stop shouting and turn off the caps lock",
     "section": "",
-    "text": "Mark Baillie is a member of the Advanced Methodology and Data Science group at Novartis. He focuses on methodology to support drug development, working on a variety of internal and external initiatives to improve the reporting of clinical trials. These include effective visual communication, initial data analysis, DMC reporting, analysis results standards, and data challenges. Mark is a member of the Stratos initiative and the PSI visualisation special interest group."
-  },
-  {
-    "objectID": "about.html#robot-bio",
-    "href": "about.html#robot-bio",
-    "title": "Mark Baillie",
-    "section": "Robot bio",
-    "text": "Robot bio\nExperienced consultant and methodologist with a demonstrated track record of delivering projects in industry, civil service, and academia. Skilled in statistical thinking, data analysis and modelling, data engineering, machine learning, visualization, effective communication, and project leadership. Written by a robot."
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "My notes",
-    "section": "",
-    "text": "IDA for regression\n\n\n\nida\n\n\nnotebook\n\n\nregression\n\n\nanalysis\n\n\n\nGuidance on conducting initial data analysis in a reproducible manner in the context of intended regression analyses.\n\n\n\n\n\n\nNov 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDon’t we just need to have more visualisations?\n\n\n\ndmc\n\n\nnotes\n\n\nmodern tools\n\n\ndata viz\n\n\nhci\n\n\n\nUnfiltered and to be processed notes supporting the writing of the 21st century DMC paper\n\n\n\n\n\n\nOct 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLessons from a company wide data visualization initiative\n\n\n\ngraphics\n\n\nards\n\n\nevc\n\n\nslides\n\n\n\nPresenting to efspi/PSDM Meeting on Data Visualisation\n\n\n\n\n\n\nApr 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitial data analysis\n\n\n\ngood practice\n\n\nida\n\n\ndata analysis\n\n\n\nTen simple rules to help provide a better foundation for data analysis.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis results data sets\n\n\n\nards\n\n\nFAIR\n\n\ndata engineering\n\n\ndata science\n\n\ndata stewardship\n\n\n\nRethinking what the data analysis target is.\n\n\n\n\n\n\nNov 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSix simple survival tips\n\n\n\nKM plots\n\n\nvisualisation\n\n\nevc\n\n\n\nPresentation at PSI 2022 conference.\n\n\n\n\n\n\nJul 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThoughts on exploratory data analysis\n\n\n\ngdsp\n\n\ngood practice\n\n\ndata science\n\n\ncritical thinking\n\n\n\nCan developing critical thinking, broader than statistics issues, help improve data analysis practice, especially in the exploratory setting?\n\n\n\n\n\n\nMar 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStop shouting and turn off the caps lock\n\n\n\nline plots\n\n\ntransparency\n\n\nemphasis\n\n\nevc\n\n\n\nSimple and practical solutions to tone down your next graph.\n\n\n\n\n\n\nDec 17, 2021\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "It’s never fun to recieve an “ALL CAPS” email. It’s the internet equivalent of being shouted at. And like that typed email written with the caps lock button on, many graphs generate the same feeling.\nWHEN ALL THE WORDS ARE CAPITALIZED, every word is emphasised. Similarly, when ALL your data is displayed by the same bold visual representation, your chart could be shouting at your readers.\nSpaghetti plots are one of the common offenders - a typical culprit displays bold lines over time. In the example below, each line represents an individual patient time course as measured in a clinical trial. For good measure, additional dots are also used to display the observed measurements.\n\n\n\n\n\nYou may be lucky and avoid shouting at your chart consumers if you only have a small volume of data. But soon enough, more data will arrive, and then the shouting begins.\nSome graphical solutions to switching off the CAPS LOCK are to use lighter colours and tones, thinner lines, remove the symbols, …\n\n\n\n\n\n… and the secret weapon: transparency.\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n\n\n\nBy changing the patient lines from black to light gray, reducing the width of the line, removing unnecessary symbols, we can dial down the volume from an 11 to a moderate 3 or 4.\n\n\n\n\n\nAnd we can quieten down the shouting further by using transparency to push the lines into the background.\nThese similar steps give us some breathing space to give a voice to the data we want to emphasise. For example, we may want to highlight a treatment average, a difference or in this example draw attention to a patient of interest. By dialing back the volume, we can then use bolder colours, thicker lines and less transparency to highlight information we want to make louder.\nSo next time you are producing a graph, think about keeping your finger off that CAPS LOCK."
   },
   {
     "objectID": "posts/modern-tools/modern-dmc.html",
@@ -147,18 +133,53 @@
     "text": "Questions to be resolved\n\nHow do you view the role of the report?\nHow do you see you and DMC in the role of designing / defining the report?\nDo you think the standard should be digital (that can be printed hard copy)?\nDo you think the standard should be hyperlinked (between outputs, with ToC)\nNeed specialist companies with the qualified personal to do this - ISRG (who funds?)\nWith figures comes a higher standard to implement correctly."
   },
   {
-    "objectID": "posts/caps/caps.html",
-    "href": "posts/caps/caps.html",
-    "title": "Stop shouting and turn off the caps lock",
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "My notes",
     "section": "",
-    "text": "It’s never fun to recieve an “ALL CAPS” email. It’s the internet equivalent of being shouted at. And like that typed email written with the caps lock button on, many graphs generate the same feeling.\nWHEN ALL THE WORDS ARE CAPITALIZED, every word is emphasised. Similarly, when ALL your data is displayed by the same bold visual representation, your chart could be shouting at your readers.\nSpaghetti plots are one of the common offenders - a typical culprit displays bold lines over time. In the example below, each line represents an individual patient time course as measured in a clinical trial. For good measure, additional dots are also used to display the observed measurements.\n\n\n\n\n\nYou may be lucky and avoid shouting at your chart consumers if you only have a small volume of data. But soon enough, more data will arrive, and then the shouting begins.\nSome graphical solutions to switching off the CAPS LOCK are to use lighter colours and tones, thinner lines, remove the symbols, …\n\n\n\n\n\n… and the secret weapon: transparency.\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n\n\n\nBy changing the patient lines from black to light gray, reducing the width of the line, removing unnecessary symbols, we can dial down the volume from an 11 to a moderate 3 or 4.\n\n\n\n\n\nAnd we can quieten down the shouting further by using transparency to push the lines into the background.\nThese similar steps give us some breathing space to give a voice to the data we want to emphasise. For example, we may want to highlight a treatment average, a difference or in this example draw attention to a patient of interest. By dialing back the volume, we can then use bolder colours, thicker lines and less transparency to highlight information we want to make louder.\nSo next time you are producing a graph, think about keeping your finger off that CAPS LOCK."
+    "text": "Analysis plans\n\n\n\nsap\n\n\nppdac\n\n\nexplore\n\n\ngdsp\n\n\n\nRough notes on analysis plans for exploratory investigations\n\n\n\n\n\n\nDec 2, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIDA for regression\n\n\n\nida\n\n\nnotebook\n\n\nregression\n\n\nanalysis\n\n\n\nGuidance on conducting initial data analysis in a reproducible manner in the context of intended regression analyses.\n\n\n\n\n\n\nNov 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDon’t we just need to have more visualisations?\n\n\n\ndmc\n\n\nnotes\n\n\nmodern tools\n\n\ndata viz\n\n\nhci\n\n\n\nUnfiltered and to be processed notes supporting the writing of the 21st century DMC paper\n\n\n\n\n\n\nOct 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLessons from a company wide data visualization initiative\n\n\n\ngraphics\n\n\nards\n\n\nevc\n\n\nslides\n\n\n\nPresenting to efspi/PSDM Meeting on Data Visualisation\n\n\n\n\n\n\nApr 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitial data analysis\n\n\n\ngood practice\n\n\nida\n\n\ndata analysis\n\n\n\nTen simple rules to help provide a better foundation for data analysis.\n\n\n\n\n\n\nDec 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis results data sets\n\n\n\nards\n\n\nFAIR\n\n\ndata engineering\n\n\ndata science\n\n\ndata stewardship\n\n\n\nRethinking what the data analysis target is.\n\n\n\n\n\n\nNov 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSix simple survival tips\n\n\n\nKM plots\n\n\nvisualisation\n\n\nevc\n\n\n\nPresentation at PSI 2022 conference.\n\n\n\n\n\n\nJul 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThoughts on exploratory data analysis\n\n\n\ngdsp\n\n\ngood practice\n\n\ndata science\n\n\ncritical thinking\n\n\n\nCan developing critical thinking, broader than statistics issues, help improve data analysis practice, especially in the exploratory setting?\n\n\n\n\n\n\nMar 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStop shouting and turn off the caps lock\n\n\n\nline plots\n\n\ntransparency\n\n\nemphasis\n\n\nevc\n\n\n\nSimple and practical solutions to tone down your next graph.\n\n\n\n\n\n\nDec 17, 2021\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/vis-lessons/index.html",
-    "href": "posts/vis-lessons/index.html",
-    "title": "Lessons from a company wide data visualization initiative",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Mark Baillie",
     "section": "",
-    "text": "meeting overview\nflyer\nslides"
+    "text": "Mark Baillie is a member of the Advanced Methodology and Data Science group at Novartis. He focuses on methodology to support drug development, working on a variety of internal and external initiatives to improve the reporting of clinical trials. These include effective visual communication, initial data analysis, DMC reporting, analysis results standards, and data challenges. Mark is a member of the Stratos initiative and the PSI visualisation special interest group."
+  },
+  {
+    "objectID": "about.html#bio",
+    "href": "about.html#bio",
+    "title": "Mark Baillie",
+    "section": "",
+    "text": "Mark Baillie is a member of the Advanced Methodology and Data Science group at Novartis. He focuses on methodology to support drug development, working on a variety of internal and external initiatives to improve the reporting of clinical trials. These include effective visual communication, initial data analysis, DMC reporting, analysis results standards, and data challenges. Mark is a member of the Stratos initiative and the PSI visualisation special interest group."
+  },
+  {
+    "objectID": "about.html#robot-bio",
+    "href": "about.html#robot-bio",
+    "title": "Mark Baillie",
+    "section": "Robot bio",
+    "text": "Robot bio\nExperienced consultant and methodologist with a demonstrated track record of delivering projects in industry, civil service, and academia. Skilled in statistical thinking, data analysis and modelling, data engineering, machine learning, visualization, effective communication, and project leadership. Written by a robot."
+  },
+  {
+    "objectID": "posts/ards/ards.html",
+    "href": "posts/ards/ards.html",
+    "title": "Analysis results data sets",
+    "section": "",
+    "text": "Barros, J.M., Widmer, L.A., Baillie, M. et al. Rethinking clinical study data: why we should respect analysis results as data. Sci Data 9, 686 (2022). https://doi.org/10.1038/s41597-022-01789-2"
+  },
+  {
+    "objectID": "posts/ida-regression/index.html",
+    "href": "posts/ida-regression/index.html",
+    "title": "IDA for regression",
+    "section": "",
+    "text": "Paper under review\nThe focus of this report is to provide guidance on conducting initial data analysis in a reproducible manner in the context of intended regression analyses"
+  },
+  {
+    "objectID": "posts/gdsp/gdsp.html",
+    "href": "posts/gdsp/gdsp.html",
+    "title": "Thoughts on exploratory data analysis",
+    "section": "",
+    "text": "Good Data Science Practice: Moving Toward a Code of Practice for Drug Development: Moving Toward a Code of Practice for Drug Development, April 2022. Statistics in Biopharmaceutical Research. DOI:10.1080/19466315.2022.2063172\nThere is growing interest in data science and the challenges that scientists can solve through its application. The growing interest is in part due to the promise of “extracting value from data.” The pharmaceutical industry is no different in this regard reflected by the advancement and excitement surrounding data science. Data science brings new perspectives, new methods, new skill sets and the wider use of new data modalities. For example, there is a belief that extracting value from data integrated from multiple sources and modalities using advances in statistics, machine learning, informatics and computation can answer fundamental questions. These questions span a variety of themes including disease understanding, drug and target discovery, and trial design. By answering fundamental questions, we cannot only increase knowledge and understanding but more importantly inform decision making; accelerating drug development through data-driven prioritization, increasingly precise and accurate measurements, optimized trial designs and operational excellence. However, with the promise of data science, there are obstacles to overcome, especially if data science is to live up to this promise and deliver a positive impact. These obstacles include consensus on the definition of data science, the relationship between data science and existing fields such as statistics and computing science, what should be involved in the day-to-day practices of data science, and what is “good” practice. In this article, we cover these themes, highlighting issues with scientific practice from five perspectives and argue how advances in data science will not be immune, especially exploratory, investigative, and innovative activities. We propose a definition of data science as a coming together but also a refocusing of established disciplines leading to a framework for good practice. In doing so, we aim to begin a dialogue on good data science practice in the context of drug development, where there is no industry view or consensus."
   },
   {
     "objectID": "posts/ida/ida.html",

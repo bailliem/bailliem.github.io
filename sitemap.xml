@@ -2,58 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bailliem.github.io/publications.html</loc>
-    <lastmod>2023-11-19T08:37:07.385Z</lastmod>
+    <lastmod>2023-12-02T06:41:22.655Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/projects.html</loc>
-    <lastmod>2023-11-19T08:37:06.605Z</lastmod>
+    <lastmod>2023-12-02T06:41:21.831Z</lastmod>
   </url>
   <url>
-    <loc>https://bailliem.github.io/posts/survival/survival.html</loc>
-    <lastmod>2023-11-19T08:37:06.041Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bailliem.github.io/posts/gdsp/gdsp.html</loc>
-    <lastmod>2023-11-19T08:37:05.581Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bailliem.github.io/posts/ida-regression/index.html</loc>
-    <lastmod>2023-11-19T08:37:04.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bailliem.github.io/posts/ards/ards.html</loc>
-    <lastmod>2023-11-19T08:37:03.365Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bailliem.github.io/about.html</loc>
-    <lastmod>2023-11-19T08:37:02.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bailliem.github.io/index.html</loc>
-    <lastmod>2023-11-19T08:37:01.585Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bailliem.github.io/posts/index.html</loc>
-    <lastmod>2023-11-19T08:37:03.141Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bailliem.github.io/posts/modern-tools/modern-dmc.html</loc>
-    <lastmod>2023-11-19T08:37:04.749Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bailliem.github.io/posts/caps/caps.html</loc>
-    <lastmod>2023-11-19T08:37:05.321Z</lastmod>
+    <loc>https://bailliem.github.io/posts/saps/saps.html</loc>
+    <lastmod>2023-12-02T06:41:21.247Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/posts/vis-lessons/index.html</loc>
-    <lastmod>2023-11-19T08:37:05.821Z</lastmod>
+    <lastmod>2023-12-02T06:41:20.691Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bailliem.github.io/posts/caps/caps.html</loc>
+    <lastmod>2023-12-02T06:41:20.171Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bailliem.github.io/posts/modern-tools/modern-dmc.html</loc>
+    <lastmod>2023-12-02T06:41:19.591Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bailliem.github.io/posts/index.html</loc>
+    <lastmod>2023-12-02T06:41:17.831Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bailliem.github.io/index.html</loc>
+    <lastmod>2023-12-02T06:41:16.059Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bailliem.github.io/about.html</loc>
+    <lastmod>2023-12-02T06:41:16.595Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bailliem.github.io/posts/ards/ards.html</loc>
+    <lastmod>2023-12-02T06:41:18.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bailliem.github.io/posts/ida-regression/index.html</loc>
+    <lastmod>2023-12-02T06:41:19.843Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bailliem.github.io/posts/gdsp/gdsp.html</loc>
+    <lastmod>2023-12-02T06:41:20.443Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bailliem.github.io/posts/survival/survival.html</loc>
+    <lastmod>2023-12-02T06:41:20.923Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/posts/ida/ida.html</loc>
-    <lastmod>2023-11-19T08:37:06.277Z</lastmod>
+    <lastmod>2023-12-02T06:41:21.507Z</lastmod>
   </url>
   <url>
     <loc>https://bailliem.github.io/LICENSE.html</loc>
-    <lastmod>2023-11-19T08:37:07.165Z</lastmod>
+    <lastmod>2023-12-02T06:41:22.419Z</lastmod>
   </url>
 </urlset>
