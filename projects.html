@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-project','listing-description','listing-role','listing-other',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-project-sort'] }],
       
-      searchColumns: ["listing-project","listing-path","listing-role","listing-other","listing-description"],
+      searchColumns: ["listing-project","listing-path","listing-role","listing-other","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">projects</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/bailliem.github.io/edit/main/projects.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/bailliem.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="ards">ards <span class="quarto-category-count">(1)</span></div><div class="category" data-category="common task framework">common task framework <span class="quarto-category-count">(1)</span></div><div class="category" data-category="communication">communication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data engineering">data engineering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data science">data science <span class="quarto-category-count">(2)</span></div><div class="category" data-category="data viz">data viz <span class="quarto-category-count">(4)</span></div><div class="category" data-category="dmc">dmc <span class="quarto-category-count">(1)</span></div><div class="category" data-category="evc">evc <span class="quarto-category-count">(3)</span></div><div class="category" data-category="fair">fair <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gdsp">gdsp <span class="quarto-category-count">(1)</span></div><div class="category" data-category="quality">quality <span class="quarto-category-count">(1)</span></div><div class="category" data-category="r package">r package <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -205,7 +205,7 @@ Other References
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-project-sort="effective visual communication (EVC)">
+<tr data-index="0" data-categories="data viz,evc,communication" data-listing-project-sort="effective visual communication (EVC)">
 <td>
 <a href="http://graphicsprinciples.github.io" class="project listing-project">effective visual communication (EVC)</a>
 </td>
@@ -216,10 +216,24 @@ Other References
 <span class="listing-role">co-creator</span>
 </td>
 <td>
-<span class="listing-other"><a href="https://blog.rstudio.com/2020/04/16/effective-visualizations-for-credible-data-driven-decision-making/">blog</a>, <a href="https://resources.rstudio.com/webinars/effective-visualizations-for-data-driven-decisions">talk</a></span>
+<span class="listing-other"><a href="https://www.efspi.org/EFSPI/Events/Meeting_Items/PSDM_Meeting_on_Data_Visualisation.aspx">psdm2023</a>, <a href="https://www.efspi.org/documents/events/DataVis_04_Baillie.pdf">slides</a></span>
 </td>
 </tr>
-<tr data-index="1" data-listing-project-sort="good graphical principles">
+<tr data-index="1" data-categories="gdsp,quality,data science" data-listing-project-sort="good data science practice">
+<td>
+<a href="https://www.tandfonline.com/doi/abs/10.1080/19466315.2022.2063172?journalCode=usbr20" class="project listing-project">good data science practice</a>
+</td>
+<td>
+<span class="listing-description">Ideas around what “good” data science may looks like within drug development, with a focus on <a href="https://www.tandfonline.com/doi/full/10.1080/19466315.2022.2128402?src=recsys">exploratory investigations</a>. </span>
+</td>
+<td>
+<span class="listing-role">author</span>
+</td>
+<td>
+<span class="listing-other"><a href="https://www.tandfonline.com/doi/abs/10.1080/19466315.2022.2063172?journalCode=usbr20">paper</a></span>
+</td>
+</tr>
+<tr data-index="2" data-categories="data viz,evc" data-listing-project-sort="good graphical principles">
 <td>
 <a href="http://graphicsprinciples.github.io" class="project listing-project">good graphical principles</a>
 </td>
@@ -230,10 +244,10 @@ Other References
 <span class="listing-role">co-creator</span>
 </td>
 <td>
-<span class="listing-other"><a href="https://graphicsprinciples.github.io/cheatsheet.html">cheatsheet</a></span>
+<span class="listing-other"><a href="https://graphicsprinciples.github.io/cheatsheet.html">cheatsheet</a>, <a href="https://www.youtube.com/watch?v=_8JvnsJdCTk&amp;t=888s">talk</a></span>
 </td>
 </tr>
-<tr data-index="2" data-listing-project-sort="modern data monitoring committee (DMC) reports">
+<tr data-index="3" data-categories="evc,dmc" data-listing-project-sort="modern data monitoring committee (DMC) reports">
 <td>
 <a href="https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07290-4" class="project listing-project">modern data monitoring committee (DMC) reports</a>
 </td>
@@ -247,7 +261,7 @@ Other References
 <span class="listing-other"><a href="https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07290-4">paper</a>, <a href="https://github.com/DMC21cent/DMC21cent">R code</a></span>
 </td>
 </tr>
-<tr data-index="3" data-listing-project-sort="analysis results as data">
+<tr data-index="4" data-categories="ards,data engineering,fair" data-listing-project-sort="analysis results as data">
 <td>
 <a href="https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07290-4" class="project listing-project">analysis results as data</a>
 </td>
@@ -261,7 +275,7 @@ Other References
 <span class="listing-other"><a href="https://www.nature.com/articles/s41597-022-01789-2">paper</a>, <a href="https://joanacmbarros.github.io/ardm-website/">workshop</a></span>
 </td>
 </tr>
-<tr data-index="4" data-listing-project-sort="ggsurvfit">
+<tr data-index="5" data-categories="data viz,r package" data-listing-project-sort="ggsurvfit">
 <td>
 <a href="https://github.com/pharmaverse/ggsurvfit" class="project listing-project">ggsurvfit</a>
 </td>
@@ -275,7 +289,21 @@ Other References
 <span class="listing-other"><a href="https://www.danieldsjoberg.com/ggsurvfit/">R package</a>, <a href="https://www.youtube.com/watch?v=pwM14W6gFf0">talk</a>, <a href="https://www.danieldsjoberg.com/ggsurvfit-useR-2023/">slides</a></span>
 </td>
 </tr>
-<tr data-index="5" data-listing-project-sort="visR">
+<tr data-index="6" data-categories="data science,common task framework" data-listing-project-sort="benchmarking AI/ML challenges">
+<td>
+<a href="https://github.com/openpharma/visR" class="project listing-project">benchmarking AI/ML challenges</a>
+</td>
+<td>
+<span class="listing-description">A proposed framework for evaluating AI/ML from a company perspective: making sense of AI through the common task framework. </span>
+</td>
+<td>
+<span class="listing-role">co-creator</span>
+</td>
+<td>
+<span class="listing-other"><a href="https://www.youtube.com/watch?v=pdTAB-loouc">talk</a>, <a href="https://baselbiometrics.github.io/home/docs/talks/20191101/20191101_summary.html">bbs2019</a>, <a href="https://baselbiometrics.github.io/home/docs/talks/20191101/8_Baillie.pdf">slides</a></span>
+</td>
+</tr>
+<tr data-index="7" data-categories="data viz,r package" data-listing-project-sort="visR">
 <td>
 <a href="https://github.com/openpharma/visR" class="project listing-project">visR</a>
 </td>
